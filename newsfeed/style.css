@@ -2,6 +2,13 @@ body {
     background: #ECF0F7;
 }
 
+@media (max-width: 9000px) {
+    .logoarea img {
+        max-width: 100%; /* Đảm bảo ảnh không bị vượt quá màn hình */
+        height: auto;
+    }
+}
+
 @-webkit-keyframes borderBlink {
 
     from,
