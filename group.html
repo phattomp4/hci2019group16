@@ -9,6 +9,32 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+.tabs {
+  display: flex;
+  justify-content: center;
+  padding-top: calc(70px + 20px); /* Chiều cao thanh menu + khoảng cách bổ sung */
+}
+
+.tablink {
+  background-color: #f1f1f1;
+  color: black;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 20px;
+  transition: background-color 0.3s;
+  font-size: 16px;
+  margin: 0 5px;
+}
+
+.tablink:hover {
+  background-color: #ddd;
+}
+
+.tablink.active {
+  background-color: #555;
+  color: white;
+}
 .dropdown {
   float: left;
   overflow: hidden;
@@ -97,9 +123,9 @@ body, html {
         </div>
       </div>
       <a href="group.html" class="w3-bar-item w3-button"><i class="fa fa-file-text"></i> GROUP DIARY</a>
-      <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> ABOUT</a>
-      <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-diamond"></i> RESULT</a>
-      <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+      <a href="index.html#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> ABOUT</a>
+      <a href="index.html#result" class="w3-bar-item w3-button"><i class="fa fa-diamond"></i> RESULT</a>
+      <a href="index.html#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
       <a target="_blank" href="login.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WEB PROJECT</a>
       
     </div>
@@ -125,13 +151,7 @@ body, html {
     <button class="tablink" onclick="openWeek(event, 'week2')">Week 2</button>
     <button class="tablink" onclick="openWeek(event, 'week3')">Week 3</button>
     <button class="tablink" onclick="openWeek(event, 'week4')">Week 4</button>
-    <button class="tablink" onclick="openWeek(event, 'week5')">Week 5</button>
-    <button class="tablink" onclick="openWeek(event, 'week6')">Week 6</button>
-    <button class="tablink" onclick="openWeek(event, 'week7')">Week 7</button>
-    <button class="tablink" onclick="openWeek(event, 'week8')">Week 8</button>
-    <button class="tablink" onclick="openWeek(event, 'week9')">Week 9</button>
-    <button class="tablink" onclick="openWeek(event, 'week10')">Week 10</button>
-  </div>
+    </div>
 
   <!-- Creating sections for each week -->
   <div id="week1" class="tabcontent">
@@ -163,7 +183,6 @@ body, html {
     <h2>Week 6</h2>
     <table id="table-week6"></table>
   </div>
-  <!-- Continue this for week3 to week10 -->
 
   <script src="groupscript.js"></script>
 </body>

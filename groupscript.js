@@ -44,70 +44,28 @@ function populateTable(weekId) {
 
         ],
         week2: [
-            { maSV: '23130232', hoTen: 'Tô Tấn Phát', congViec: 'Task 1', ketQua: 'Hoàn thành', tienDo: '100%' },
-            { maSV: '23130327', hoTen: 'Nguyễn Hoài Thương', congViec: 'Task 2', ketQua: 'Đang chuẩn bị', tienDo: '50%' },
-            { maSV: '23130355', hoTen: 'Lê Quang Trường', congViec: 'Task 3', ketQua: 'Đang chuẩn bị', tienDo: '60%' },
-            { maSV: '22130105', hoTen: 'Phan Thanh Huy', congViec: 'Task 4', ketQua: 'Đang chuẩn bị', tienDo: '70%' },
-            { maSV: '22130150', hoTen: 'Võ Phước Lộc', congViec: 'Task 5', ketQua: 'Hoàn thành', tienDo: '100%' }
+            { maSV: '23130232', hoTen: 'Tô Tấn Phát', congViec: 'Lên ý tưởng cho web nhóm, thảo luận, phân chia công việc', ketQua: 'Hoàn thành', tienDo: '100%' },
+            { maSV: '23130327', hoTen: 'Nguyễn Hoài Thương', congViec: 'Lên ý tưởng cho mục contact và chú ý trang thông tin,', ketQua: 'Hoàn thành', tienDo: '100%' },
+            { maSV: '23130355', hoTen: 'Lê Quang Trường', congViec: 'Lên ý tưởng cho trang thông tin của project', ketQua: 'Hoàn thành', tienDo: '100%' },
+            { maSV: '22130105', hoTen: 'Phan Thanh Huy', congViec: 'Lên ý tưởng về nội dung, design phần đăng nhập, đăng kí', ketQua: 'Hoàn thành', tienDo: '100%' },
+            { maSV: '22130150', hoTen: 'Võ Phước Lộc', congViec: 'Lên ý tưởng design web về giao diện, hình ảnh', ketQua: 'Hoàn thành', tienDo: '100%' }
         ],
 
         week3: [
-            { maSV: '23130232', hoTen: 'Tô Tấn Phát', congViec: 'Task 1', ketQua: 'Hoàn thành', tienDo: '100%' },
-            { maSV: '23130327', hoTen: 'Nguyễn Hoài Thương', congViec: 'Task 2', ketQua: 'Đang chuẩn bị', tienDo: '50%' },
-            { maSV: '23130355', hoTen: 'Lê Quang Trường', congViec: 'Task 3', ketQua: 'Đang chuẩn bị', tienDo: '60%' },
-            { maSV: '22130105', hoTen: 'Phan Thanh Huy', congViec: 'Task 4', ketQua: 'Đang chuẩn bị', tienDo: '70%' },
-            { maSV: '22130150', hoTen: 'Võ Phước Lộc', congViec: 'Task 5', ketQua: 'Hoàn thành', tienDo: '100%' }
+            { maSV: '23130232', hoTen: 'Tô Tấn Phát', congViec: 'Giao diện ban đầu, góp ý chỉnh sửa, đồng nhất thiết kế giữa các phần', ketQua: 'Hoàn thành', tienDo: '100%' },
+            { maSV: '23130327', hoTen: 'Nguyễn Hoài Thương', congViec: 'Hoàn thành giao diện Contact và chú ý trang thông tin và tham khảo thông tin các CLB',  ketQua: 'Hoàn thành', tienDo: '100%' },
+            { maSV: '23130355', hoTen: 'Lê Quang Trường', congViec: 'Tìm hiểu thông tin các CLB, chỉnh sửa và hoàn thành giao diện lần 1',  ketQua: 'Hoàn thành', tienDo: '100%' },
+            { maSV: '22130105', hoTen: 'Phan Thanh Huy', congViec: 'Hoàn thành giao diện lần 1 của đăng nhập, đăng kí, góp ý chỉnh sửa các nội dung',  ketQua: 'Hoàn thành', tienDo: '100%' },
+            { maSV: '22130150', hoTen: 'Võ Phước Lộc', congViec: 'Kiểm tra các chức năng, hoàn thành Trang giới thiệu', ketQua: 'Hoàn thành', tienDo: '100%' }
         ],
 
         week4: [
-            { maSV: '23130232', hoTen: 'Tô Tấn Phát', congViec: 'Task 1', ketQua: 'Hoàn thành', tienDo: '100%' },
-            { maSV: '23130327', hoTen: 'Nguyễn Hoài Thương', congViec: 'Task 2', ketQua: 'Đang chuẩn bị', tienDo: '50%' },
-            { maSV: '23130355', hoTen: 'Lê Quang Trường', congViec: 'Task 3', ketQua: 'Đang chuẩn bị', tienDo: '60%' },
-            { maSV: '22130105', hoTen: 'Phan Thanh Huy', congViec: 'Task 4', ketQua: 'Đang chuẩn bị', tienDo: '70%' },
-            { maSV: '22130150', hoTen: 'Võ Phước Lộc', congViec: 'Task 5', ketQua: 'Hoàn thành', tienDo: '100%' }
+            { maSV: '23130232', hoTen: 'Tô Tấn Phát', congViec: 'Hoàn chỉnh Header trang CLB/TỔ/ĐỘI/NHÓM, Slideshow và Tin tức mới nhất', ketQua: 'Hoàn thành', tienDo: '100%' },
+            { maSV: '23130327', hoTen: 'Nguyễn Hoài Thương', congViec: 'Hoàn chỉnh CONTACT, Mục CHÚ Ý TRANG THÔNG TIN, Bản tin trang CLB/TỔ/ĐỘI/NHÓM', ketQua: 'Hoàn thành', tienDo: '100%' },
+            { maSV: '23130355', hoTen: 'Lê Quang Trường', congViec: 'Hoàn chỉnh Header TRANG THÔNG TIN và Footer', ketQua: 'Hoàn thành', tienDo: '100%' },
+            { maSV: '22130105', hoTen: 'Phan Thanh Huy', congViec: 'Hoàn chỉnh Đăng nhập, Đăng ký và mục Bản tin TRANG THÔNG TIN', ketQua: 'Hoàn thành', tienDo: '100%' },
+            { maSV: '22130150', hoTen: 'Võ Phước Lộc', congViec: 'Hoàn chỉnh TRANG GIỚI THIỆU', ketQua: 'Hoàn thành', tienDo: '100%' }
         ],
-
-        week5: [
-            { maSV: '23130232', hoTen: 'Tô Tấn Phát', congViec: 'Task 1', ketQua: 'Hoàn thành', tienDo: '100%' },
-            { maSV: '23130327', hoTen: 'Nguyễn Hoài Thương', congViec: 'Task 2', ketQua: 'Đang chuẩn bị', tienDo: '50%' },
-            { maSV: '23130355', hoTen: 'Lê Quang Trường', congViec: 'Task 3', ketQua: 'Đang chuẩn bị', tienDo: '60%' },
-            { maSV: '22130105', hoTen: 'Phan Thanh Huy', congViec: 'Task 4', ketQua: 'Đang chuẩn bị', tienDo: '70%' },
-            { maSV: '22130150', hoTen: 'Võ Phước Lộc', congViec: 'Task 5', ketQua: 'Hoàn thành', tienDo: '100%' }
-        ],
-
-        week6: [
-            { maSV: '23130232', hoTen: 'Tô Tấn Phát', congViec: 'Task 1', ketQua: 'Hoàn thành', tienDo: '100%' },
-            { maSV: '23130327', hoTen: 'Nguyễn Hoài Thương', congViec: 'Task 2', ketQua: 'Đang chuẩn bị', tienDo: '50%' },
-            { maSV: '23130355', hoTen: 'Lê Quang Trường', congViec: 'Task 3', ketQua: 'Đang chuẩn bị', tienDo: '60%' },
-            { maSV: '22130105', hoTen: 'Phan Thanh Huy', congViec: 'Task 4', ketQua: 'Đang chuẩn bị', tienDo: '70%' },
-            { maSV: '22130150', hoTen: 'Võ Phước Lộc', congViec: 'Task 5', ketQua: 'Hoàn thành', tienDo: '90%' }
-        ],
-
-        week7: [
-            { maSV: '23130232', hoTen: 'Tô Tấn Phát', congViec: 'Task 1', ketQua: 'Lên ý tưởng', tienDo: '20%' },
-            { maSV: '23130327', hoTen: 'Nguyễn Hoài Thương', congViec: 'Task 2', ketQua: 'Đang chuẩn bị', tienDo: '30%' },
-            { maSV: '23130355', hoTen: 'Lê Quang Trường', congViec: 'Task 3', ketQua: 'Đang chuẩn bị', tienDo: '40%' },
-            { maSV: '22130105', hoTen: 'Phan Thanh Huy', congViec: 'Task 4', ketQua: 'Đang chuẩn bị', tienDo: '50%' },
-            { maSV: '22130150', hoTen: 'Võ Phước Lộc', congViec: 'Task 5', ketQua: 'Hoàn thành', tienDo: '100%' }
-        ],
-
-        week8: [
-            { maSV: '23130232', hoTen: 'Tô Tấn Phát', congViec: 'Task 1', ketQua: 'Hoàn thành', tienDo: '100%' },
-            { maSV: '23130327', hoTen: 'Nguyễn Hoài Thương', congViec: 'Task 2', ketQua: 'Đang chuẩn bị', tienDo: '50%' },
-            { maSV: '23130355', hoTen: 'Lê Quang Trường', congViec: 'Task 3', ketQua: 'Đang chuẩn bị', tienDo: '60%' },
-            { maSV: '22130105', hoTen: 'Phan Thanh Huy', congViec: 'Task 4', ketQua: 'Đang chuẩn bị', tienDo: '70%' },
-            { maSV: '22130150', hoTen: 'Võ Phước Lộc', congViec: 'Task 5', ketQua: 'Hoàn thành', tienDo: '100%' }
-        ],
-
-        week9: [
-            { maSV: '23130232', hoTen: 'Tô Tấn Phát', congViec: 'Task 1', ketQua: 'Hoàn thành', tienDo: '100%' },
-            { maSV: '23130327', hoTen: 'Nguyễn Hoài Thương', congViec: 'Task 2', ketQua: 'Đang chuẩn bị', tienDo: '50%' },
-            { maSV: '23130355', hoTen: 'Lê Quang Trường', congViec: 'Task 3', ketQua: 'Đang chuẩn bị', tienDo: '60%' },
-            { maSV: '22130105', hoTen: 'Phan Thanh Huy', congViec: 'Task 4', ketQua: 'Đang chuẩn bị', tienDo: '70%' },
-            { maSV: '22130150', hoTen: 'Võ Phước Lộc', congViec: 'Task 5', ketQua: 'Hoàn thành', tienDo: '100%' }
-        ],
-
-
         // Add more sample data for weeks 3 to 10
     };
 

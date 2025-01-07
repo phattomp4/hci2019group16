@@ -10,10 +10,11 @@
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
@@ -23,92 +24,108 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        .img-logo {
+            max-width: 100%;
+            height: 110px;
+            width: 110px;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+
+        .col-lg-8>.bg-white {
+            padding: 20px;
+            /* Tăng khoảng cách bên trong */
+            border: 1px solid #ddd;
+            /* Thêm viền để phân biệt */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            /* Hiệu ứng đổ bóng */
+            background-color: #fff;
+            /* Đảm bảo nền trắng */
+        }
+
+        .col-lg-8 {
+            max-width: 1400px !important;
+            margin: 0 auto !important;
+        }
+
+        /* Thay đổi bố cục các hàng ngang */
+        .bg-white.border.border-top-0.p-3 {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: space-between;
+        }
+
+        .d-flex.align-items-center.bg-white.mb-3 {
+            width: calc(50% - 20px);
+            box-sizing: border-box;
+            height: auto;
+        }
+
+        @media (max-width: 991.98px) {
+            .d-flex.align-items-center.bg-white.mb-3 {
+                width: 100%;
+                /* Hiển thị 1 phần tử mỗi hàng */
+            }
+        }
+
+        .bg-white .d-flex {
+            position: relative;
+            box-sizing: border-box;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            /* Thêm hiệu ứng */
+        }
+
+        .bg-white .d-flex:hover {
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            /* Thêm bóng mờ */
+            color: inherit;
+        }
+
+        .bg-white .d-flex a {
+            display: flex;
+            text-decoration: none;
+            /* Loại bỏ gạch dưới của liên kết */
+        }
+
+        .navbar {
+            position: fixed;
+            /* Giữ cố định */
+            top: 0;
+            /* Căn chỉnh ở đầu trang */
+            left: 0;
+            /* Căn chỉnh sang bên trái */
+            width: 100%;
+            /* Chiều rộng toàn màn hình */
+            z-index: 1000;
+            /* Ưu tiên hiển thị phía trên các phần tử khác */
+            background-color: #000;
+            /* Giữ màu nền */
+        }
+    </style>
 </head>
 
 <body>
-    <!-- Topbar Start -->
-    <div class="container-fluid d-none d-lg-block">
-        <div class="row align-items-center bg-dark px-lg-5">
-            <div class="col-lg-9">
-                <nav class="navbar navbar-expand-sm bg-dark p-0">
-                    <ul class="navbar-nav ml-n2">
-                        <li class="nav-item border-right border-secondary">
-                            <a class="nav-link text-body small" href="#">Monday, January 1, 2045</a>
-                        </li>
-                        <li class="nav-item border-right border-secondary">
-                            <a class="nav-link text-body small" href="#">Advertise</a>
-                        </li>
-                        <li class="nav-item border-right border-secondary">
-                            <a class="nav-link text-body small" href="#">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-body small" href="#">Login</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="col-lg-3 text-right d-none d-md-block">
-                <nav class="navbar navbar-expand-sm bg-dark p-0">
-                    <ul class="navbar-nav ml-auto mr-n2">
-                        <li class="nav-item">
-                            <a class="nav-link text-body" href="#"><small class="fab fa-twitter"></small></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-body" href="#"><small class="fab fa-facebook-f"></small></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-body" href="#"><small class="fab fa-linkedin-in"></small></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-body" href="#"><small class="fab fa-instagram"></small></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-body" href="#"><small class="fab fa-google-plus-g"></small></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-body" href="#"><small class="fab fa-youtube"></small></a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-        <div class="row align-items-center bg-white py-3 px-lg-5">
-            <div class="col-lg-4">
-                <a href="index.html" class="navbar-brand p-0 d-none d-lg-block">
-                    <h1 class="m-0 display-4 text-uppercase text-primary">Biz<span class="text-secondary font-weight-normal">News</span></h1>
-                </a>
-            </div>
-            <div class="col-lg-8 text-center text-lg-right">
-                <a href="https://htmlcodex.com"><img class="img-fluid" src="img/ads-728x90.png" alt=""></a>
-            </div>
-        </div>
-    </div>
-    <!-- Topbar End -->
-
 
     <!-- Navbar Start -->
     <div class="container-fluid p-0">
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-2 py-lg-0 px-lg-5">
-            <a href="index.html" class="navbar-brand d-block d-lg-none">
-                <h1 class="m-0 display-4 text-uppercase text-primary">Biz<span class="text-white font-weight-normal">News</span></h1>
-            </a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
             <div class="collapse navbar-collapse justify-content-between px-0 px-lg-3" id="navbarCollapse">
                 <div class="navbar-nav mr-auto py-0">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="category.html" class="nav-item nav-link">Category</a>
-                    <a href="single.html" class="nav-item nav-link">Single News</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Giới thiệu</a>
                         <div class="dropdown-menu rounded-0 m-0">
-                            <a href="#" class="dropdown-item">Menu item 1</a>
-                            <a href="#" class="dropdown-item">Menu item 2</a>
-                            <a href="#" class="dropdown-item">Menu item 3</a>
+                            <a href="/newsfeed/About/mission.html" class="dropdown-item">Sứ mạng - Tầm nhìn</a>
+                            <a href="/newsfeed/About/council.html" class="dropdown-item">Hội đồng trường</a>
+                            <a href="/newsfeed/About/boss.html" class="dropdown-item">Ban Giám Hiệu</a>
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link active">Contact</a>
+                    <a href="/newsfeed/webproject.html" class="nav-item nav-link">TRANG THÔNG TIN</a>
+                    <a href="index.html" class="nav-item nav-link active">CLB/TỔ/ĐỘI/NHÓM</a>
+                    <a href="https://dkmh.hcmuaf.edu.vn/public/#/home" class="nav-item nav-link">ĐKMH NLU</a>
+                    <a href="/newsfeed/pages/contact.html" class="nav-item nav-link">Contact</a>
                 </div>
                 <div class="input-group ml-auto d-none d-lg-flex" style="width: 100%; max-width: 300px;">
                     <input type="text" class="form-control border-0" placeholder="Keyword">
@@ -120,6 +137,7 @@
             </div>
         </nav>
     </div>
+
     <!-- Navbar End -->
 
 
@@ -128,223 +146,244 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
-                    <div class="section-title mb-0">
-                        <h4 class="m-0 text-uppercase font-weight-bold">Contact Us For Any Queries</h4>
-                    </div>
-                    <div class="bg-white border border-top-0 p-4 mb-3">
-                        <div class="mb-4">
-                            <h6 class="text-uppercase font-weight-bold">Contact Info</h6>
-                            <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-							<div class="mb-3">
-                                <div class="d-flex align-items-center mb-2">
-                                    <i class="fa fa-map-marker-alt text-primary mr-2"></i>
-                                    <h6 class="font-weight-bold mb-0">Our Office</h6>
-                                </div>
-                                <p class="m-0">123 Street, New York, USA</p>
-                            </div>
-                            <div class="mb-3">
-                                <div class="d-flex align-items-center mb-2">
-                                    <i class="fa fa-envelope-open text-primary mr-2"></i>
-                                    <h6 class="font-weight-bold mb-0">Email Us</h6>
-                                </div>
-                                <p class="m-0">info@example.com</p>
-                            </div>
-                            <div class="mb-3">
-                                <div class="d-flex align-items-center mb-2">
-                                    <i class="fa fa-phone-alt text-primary mr-2"></i>
-                                    <h6 class="font-weight-bold mb-0">Call Us</h6>
-                                </div>
-                                <p class="m-0">+012 345 6789</p>
-                            </div>
-                        </div>
-                        <h6 class="text-uppercase font-weight-bold mb-3">Contact Us</h6>
-                        <form>
-                            <div class="form-row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control p-4" placeholder="Your Name" required="required"/>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control p-4" placeholder="Your Email" required="required"/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control p-4" placeholder="Subject" required="required"/>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" rows="4" placeholder="Message" required="required"></textarea>
-                            </div>
-                            <div>
-                                <button class="btn btn-primary font-weight-semi-bold px-4" style="height: 50px;"
-                                    type="submit">Send Message</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <!-- Social Follow Start -->
+
+                    <!-- Popular News Start -->
+
+
                     <div class="mb-3">
                         <div class="section-title mb-0">
-                            <h4 class="m-0 text-uppercase font-weight-bold">Follow Us</h4>
+                            <h4 class="m-0 text-uppercase font-weight-bold">Được quan tâm</h4>
                         </div>
                         <div class="bg-white border border-top-0 p-3">
-                            <a href="" class="d-block w-100 text-white text-decoration-none mb-3" style="background: #39569E;">
-                                <i class="fab fa-facebook-f text-center py-4 mr-3" style="width: 65px; background: rgba(0, 0, 0, .2);"></i>
-                                <span class="font-weight-medium">12,345 Fans</span>
-                            </a>
-                            <a href="" class="d-block w-100 text-white text-decoration-none mb-3" style="background: #52AAF4;">
-                                <i class="fab fa-twitter text-center py-4 mr-3" style="width: 65px; background: rgba(0, 0, 0, .2);"></i>
-                                <span class="font-weight-medium">12,345 Followers</span>
-                            </a>
-                            <a href="" class="d-block w-100 text-white text-decoration-none mb-3" style="background: #0185AE;">
-                                <i class="fab fa-linkedin-in text-center py-4 mr-3" style="width: 65px; background: rgba(0, 0, 0, .2);"></i>
-                                <span class="font-weight-medium">12,345 Connects</span>
-                            </a>
-                            <a href="" class="d-block w-100 text-white text-decoration-none mb-3" style="background: #C8359D;">
-                                <i class="fab fa-instagram text-center py-4 mr-3" style="width: 65px; background: rgba(0, 0, 0, .2);"></i>
-                                <span class="font-weight-medium">12,345 Followers</span>
-                            </a>
-                            <a href="" class="d-block w-100 text-white text-decoration-none mb-3" style="background: #DC472E;">
-                                <i class="fab fa-youtube text-center py-4 mr-3" style="width: 65px; background: rgba(0, 0, 0, .2);"></i>
-                                <span class="font-weight-medium">12,345 Subscribers</span>
-                            </a>
-                            <a href="" class="d-block w-100 text-white text-decoration-none" style="background: #055570;">
-                                <i class="fab fa-vimeo-v text-center py-4 mr-3" style="width: 65px; background: rgba(0, 0, 0, .2);"></i>
-                                <span class="font-weight-medium">12,345 Followers</span>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Social Follow End -->
-
-                    <!-- Newsletter Start -->
-                    <div class="mb-3">
-                        <div class="section-title mb-0">
-                            <h4 class="m-0 text-uppercase font-weight-bold">Newsletter</h4>
-                        </div>
-                        <div class="bg-white text-center border border-top-0 p-3">
-                            <p>Aliqu justo et labore at eirmod justo sea erat diam dolor diam vero kasd</p>
-                            <div class="input-group mb-2" style="width: 100%;">
-                                <input type="text" class="form-control form-control-lg" placeholder="Your Email">
-                                <div class="input-group-append">
-                                    <button class="btn btn-primary font-weight-bold px-3">Sign Up</button>
-                                </div>
+                            <div class="d-flex align-items-center bg-white mb-3 style=" height: 110px;">
+                                <a href="">
+                                    <img class="img-logo"
+                                        src="https://scontent.fsgn2-10.fna.fbcdn.net/v/t39.30808-6/353835332_287436546962968_774309216565653550_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=zkBH6AhHDPQQ7kNvgFxQTe5&_nc_oc=Adjip4KULllCR19Tp1VFIr1AiXoSgAtYS5r70GRCO5Hzf0NhtMEdczQFM9Zlevby5KM&_nc_zt=23&_nc_ht=scontent.fsgn2-10.fna&_nc_gid=AIFqy2ausnp24RQcRCnucI_&oh=00_AYBKXjwHUiuPACGiUHDd5lAl4mneDYNyCQcsdSXj-ZnKag&oe=67813B60"
+                                        alt="">
+                                    <div
+                                        class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+                                        <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                            href="https://www.facebook.com/ctxh2001nlu" target="_blank">Đội Công Tác Xã
+                                            Hội
+                                        </a>
+                                </a>
                             </div>
-                            <small>Lorem ipsum dolor sit amet elit</small>
+                        </div>
+                        <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                            <a href="">
+                                <img class="img-logo"
+                                    src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/463781834_511785255158970_6140787196725339504_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=G9zHQnEMAqwQ7kNvgFHOffc&_nc_oc=AdjgHiUj8ccumHa-S7aOIADcZfEcMvJPh9NCXIZ-yTu7aW0csxnUvYA7axYEEz4SIx0&_nc_zt=23&_nc_ht=scontent.fsgn2-3.fna&_nc_gid=A0wY1RWhCT07MPQA0GawL9g&oh=00_AYDsL4S9SJH_46DvX_u5Ta0VpqGxsePl08J8SbGwryJyFw&oe=6781518E"
+                                    alt="">
+                                <div
+                                    class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                        href="https://www.facebook.com/clbdonghanh.ac" target="_blank">clb đồng hành -
+                                        ac</a>
+                                </div>
+
+                            </a>
+
+                        </div>
+                        <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                            <a href="">
+                                <img class="img-logo"
+                                    src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t39.30808-6/275099065_2995207807457291_4283222669435867672_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=uRccmGtgt1YQ7kNvgF35o97&_nc_oc=Adiw7cbL1iU8jcrbsWG3Jszo2AVD55rElfkisFQdjFM5I7ozruhqNrqwOJD-SpFllfg&_nc_zt=23&_nc_ht=scontent.fsgn2-4.fna&_nc_gid=AoGZOXAANezaRiKNVFlYvYJ&oh=00_AYD9McTHrQF_VV9d61l6SEj5v-QbXF5bX62na9f4Upfg3Q&oe=67814E1E"
+                                    alt="">
+                                <div
+                                    class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                        href="https://www.facebook.com/Vnxk.nhip.dieu.xanh" target="_blank">Đội VNXK
+                                        Nhịp điệu xanh</a>
+                                </div>
+
+                            </a>
+
+                        </div>
+                        <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                            <a href="">
+
+                                <img class="img-logo"
+                                    src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/309121358_459682656186698_5859314364442846345_n.png?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=T1f_4--LxQ4Q7kNvgFxCh_4&_nc_oc=Adhjx5cIvIAhcurwMuDHSgFnh86SrDIanMupOuvCRvk7AksX85r-nQ3BEOKmgoHL0Og&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=Ak4FPFMKPM3zGVrEA4zVGF3&oh=00_AYBSE6nIAN33KJIteLIvLmbJBtGJF4Uxb8X44yX2h8dhsg&oe=678167FC"
+                                    alt="">
+
+                                <a href="https://www.facebook.com/NongLamUniversity.Radio">
+                                    <div
+                                        class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+
+                                        <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                            href="https://www.facebook.com/NongLamUniversity.Radio" target="_blank">CLB
+                                            truyền thông nông lâm radio</a>
+                                    </div>
+                                </a>
+
+
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                            <a href="">
+                                <img class="img-logo"
+                                    src="https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-1/456983442_927614989397018_15472231725507844_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=106&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=IzFAHpWyWKMQ7kNvgH7Vjq9&_nc_oc=AdiAJEfNPddd-8AltoN2qwKVU7Xy1quv4xIuokANQq0LRxLTMqPmpXqo0KVTNco43Yt0sOyeX1_6aBHoBokOiyx6&_nc_zt=24&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=AQz5qEOmPtWJDNLtgYPVbvi&oh=00_AYD3ciQhSA-XRHIA4s4raHMZfqdD3F8TlPMJziUWAw7wfg&oe=6783752D"
+                                    alt="">
+                                <div
+                                    class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                        href="https://www.facebook.com/CLB.YMT.NL" target="_blank">CLB YÊU MÔI
+                                        TRƯỜNG</a>
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                        <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                            <a href="">
+                                <img class="img-logo"
+                                    src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-1/305760903_520897403372197_1677000767914989711_n.png?stp=c301.0.1446.1447a_dst-png_s200x200&_nc_cat=110&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=b78ANgs53JQQ7kNvgHsKeLo&_nc_oc=AdiTrpNc417c1KqJfvGKszbeBoOMNfGtQM5d9Hv5vWXShMD_j3dj404-UJ9-ZfN0HAk&_nc_zt=24&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=APxpmAriEuZzeu-UCmfBN9G&oh=00_AYBEmbsm5PQCgMUBeKE4XrngiwhnRTM0tyfjTc0dGCEQ9Q&oe=67817128"
+                                    alt="">
+                                <div
+                                    class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                        href="https://www.facebook.com/doivannghe.rangdong" target="_blank">Đội văn nghệ
+                                        rạng đông</a>
+                                </div>
+
+                            </a>
+
+                        </div>
+
+
+                        <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                            <a href="">
+                                <img class="img-logo"
+                                    src="https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/461945642_971891114976527_6593715388915772874_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=80ASGVFsPkgQ7kNvgH8Zj5C&_nc_oc=AdinFS8Gle9OE70pQdaHOtB0B96lLJXuyYlbCCMzKQxPec6e2CkEBmky4tnz_mhmMJJlZzPR9GOo6yMni-ovlUOd&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=A3KglzjG65cfWZA0VrzmUsl&oh=00_AYAsyBhCO_jf8CDxezwcACaVSurXFw2xSabe7Ipp_GgJUw&oe=67835573"
+                                    alt="">
+                                <div
+                                    class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                        href="https://www.facebook.com/clbkntc" target="_blank">CLB KẾT NỐI THÀNH
+                                        CÔNG</a>
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                        <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                            <a href="">
+                                <img class="img-logo"
+                                    src="https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-1/456028412_915131310659302_8707707741085616002_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=103&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=FeLowpNBElQQ7kNvgFfI-CW&_nc_oc=AdjgQbIZDpHuRo8XKXBTBS5SzFyQqpoVRdmSxZBfGgWqEeY4XkuPUzGt7UGfaRM8nrFkYLV5FtHBhjI19jhC510_&_nc_zt=24&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=A94Sk8kH5nsQt5FY1oeRjvD&oh=00_AYB3ZfiJgyB-2pYkEQ1pAKquaG0rQtUAb8x9b8HP5pFRIQ&oe=678369F9"
+                                    alt="">
+                                <div
+                                    class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                        href="https://www.facebook.com/totdrlhatgiongdo" target="_blank">Tổ Tu Dưỡng Rèn
+                                        Luyện HẠT GIỐNG ĐỎ</a>
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                        <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                            <a href="">
+                                <img class="img-logo"
+                                    src="https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-1/471402666_1031959485641800_4565236812046850952_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=103&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=RfKFjF0SdacQ7kNvgG7ht7-&_nc_oc=Adin2_1Vn07XUSj57g3Bjw7JEo4-i33vqs4D4ZGgN5DB0pqd6GvsbzhMAx-uECF5uw0GWuxhdA78_-V9MRdA1egP&_nc_zt=24&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=AA8svkZw_mwmgmdydQP-bBM&oh=00_AYCJ8qM5HQGBh-yPGwB7oen8grPXbB-hH3XIdzNUk2KKlg&oe=67836D17"
+                                    alt="">
+                                <div
+                                    class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                        href="https://www.facebook.com/ClbCanBoDoanNgoiSaoXanh" target="_blank">CLB CÁN
+                                        BỘ ĐOÀN NGÔI SAO XANH</a>
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                        <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                            <a href="">
+                                <img class="img-logo"
+                                    src="https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/470689989_1060734456063764_2407263385750659017_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=JQ2QC4GqXxIQ7kNvgFtDHHn&_nc_oc=Adgzxa-XJa_XLybDyfs_S9iXLsPrkfUpbSKoakcgv_EPcGPhzVRVm6v7GTaEz5yQ9vmW0IcQeJqHGFcV7TxCR-fb&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=A0_eDzcNw3a4gEGzpRZ5DKz&oh=00_AYDdG_nn0nct4sSG6WnDfA6QeBTATOx5WFOnbA7yq-LLTg&oe=6783801C"
+                                    alt="">
+                                <div
+                                    class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                        href="https://www.facebook.com/dlst.info" target="_blank">DU LỊCH SINH THÁI</a>
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                        <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                            <a href="">
+                                <img class="img-logo"
+                                    src="https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-1/326183779_1286120448619654_3627089238282064311_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=101&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=bM2d_Psd1lcQ7kNvgHTLP4O&_nc_oc=AdgszMgVjzKaq_ak8aFg4KajH_QjUhxPq9wOhfrUm5s7rZEILqRR75efOzPdy1YurTcxUejIN7h1O6-G_SsIKeeq&_nc_zt=24&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=AwIxZVmVQFvTK9gf2MFdyst&oh=00_AYBop9jpJ3TNnuRZl277v0hatzzxKqDcPSItxFi2uaqfQQ&oe=6783727B"
+                                    alt="">
+                                <div
+                                    class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                        href="https://www.facebook.com/clbsvhdnlu/" target="_blank">CLB SÁCH VÀ HÀNH
+                                        ĐỘNG</a>
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                        <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                            <a href="">
+                                <img class="img-logo"
+                                    src="https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-1/466924815_536989549110432_4255347471946616960_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=103&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=SvuNGhmx7GEQ7kNvgHjG0_6&_nc_oc=AdiC4oa99YKALDGTIVQ3Sdb9O55gMtHLAEvR2FsQxErAOHRuH7WhxIdfylHmxYJzHYZnBU93KUz3akrDGqRdqUOg&_nc_zt=24&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=AoSTZhvFiWTKoPSG3f-v5fo&oh=00_AYB_zpMForbKY2w_pN1mFKkZRODUjvjPZs2ogWjRG8TVmg&oe=67835018"
+                                    alt="">
+                                <div
+                                    class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                        href="https://www.facebook.com/englishforbusinessnlu" target="_blank">EFB -
+                                        English For Business Club</a>
+                                </div>
+
+                            </a>
+
                         </div>
                     </div>
-                    <!-- Newsletter End -->
+                </div>
+
+                <!-- Nhận tin tức qua mail Start -->
+                <div class="mb-3">
+                    <div class="section-title mb-0">
+                        <h4 class="m-0 text-uppercase font-weight-bold">Nhận tin tức qua mail</h4>
+                    </div>
+                    <div class="bg-white text-center border border-top-0 p-3">
+                        <p>Hãy để lại mail nếu bạn muốn nhận được những thông tin mới nhất từ chúng tôi nhé</p>
+                        <div class="input-group mb-2" style="width: 100%;">
+                            <input type="text" class="form-control form-control-lg" placeholder="Email">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary font-weight-bold px-3">OK</button>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
+    </div>
     </div>
     <!-- Contact End -->
 
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark pt-5 px-sm-3 px-md-5 mt-5">
-        <div class="row py-4">
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h5 class="mb-4 text-white text-uppercase font-weight-bold">Get In Touch</h5>
-                <p class="font-weight-medium"><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
-                <p class="font-weight-medium"><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
-                <p class="font-weight-medium"><i class="fa fa-envelope mr-2"></i>info@example.com</p>
-                <h6 class="mt-4 mb-3 text-white text-uppercase font-weight-bold">Follow Us</h6>
-                <div class="d-flex justify-content-start">
-                    <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i class="fab fa-instagram"></i></a>
-                    <a class="btn btn-lg btn-secondary btn-lg-square" href="#"><i class="fab fa-youtube"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h5 class="mb-4 text-white text-uppercase font-weight-bold">Popular News</h5>
-                <div class="mb-3">
-                    <div class="mb-2">
-                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Business</a>
-                        <a class="text-body" href=""><small>Jan 01, 2045</small></a>
-                    </div>
-                    <a class="small text-body text-uppercase font-weight-medium" href="">Lorem ipsum dolor sit amet elit. Proin vitae porta diam...</a>
-                </div>
-                <div class="mb-3">
-                    <div class="mb-2">
-                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Business</a>
-                        <a class="text-body" href=""><small>Jan 01, 2045</small></a>
-                    </div>
-                    <a class="small text-body text-uppercase font-weight-medium" href="">Lorem ipsum dolor sit amet elit. Proin vitae porta diam...</a>
-                </div>
-                <div class="">
-                    <div class="mb-2">
-                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Business</a>
-                        <a class="text-body" href=""><small>Jan 01, 2045</small></a>
-                    </div>
-                    <a class="small text-body text-uppercase font-weight-medium" href="">Lorem ipsum dolor sit amet elit. Proin vitae porta diam...</a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h5 class="mb-4 text-white text-uppercase font-weight-bold">Categories</h5>
-                <div class="m-n1">
-                    <a href="" class="btn btn-sm btn-secondary m-1">Politics</a>
-                    <a href="" class="btn btn-sm btn-secondary m-1">Business</a>
-                    <a href="" class="btn btn-sm btn-secondary m-1">Corporate</a>
-                    <a href="" class="btn btn-sm btn-secondary m-1">Business</a>
-                    <a href="" class="btn btn-sm btn-secondary m-1">Health</a>
-                    <a href="" class="btn btn-sm btn-secondary m-1">Education</a>
-                    <a href="" class="btn btn-sm btn-secondary m-1">Science</a>
-                    <a href="" class="btn btn-sm btn-secondary m-1">Business</a>
-                    <a href="" class="btn btn-sm btn-secondary m-1">Foods</a>
-                    <a href="" class="btn btn-sm btn-secondary m-1">Entertainment</a>
-                    <a href="" class="btn btn-sm btn-secondary m-1">Travel</a>
-                    <a href="" class="btn btn-sm btn-secondary m-1">Lifestyle</a>
-                    <a href="" class="btn btn-sm btn-secondary m-1">Politics</a>
-                    <a href="" class="btn btn-sm btn-secondary m-1">Business</a>
-                    <a href="" class="btn btn-sm btn-secondary m-1">Corporate</a>
-                    <a href="" class="btn btn-sm btn-secondary m-1">Business</a>
-                    <a href="" class="btn btn-sm btn-secondary m-1">Health</a>
-                    <a href="" class="btn btn-sm btn-secondary m-1">Education</a>
-                    <a href="" class="btn btn-sm btn-secondary m-1">Science</a>
-                    <a href="" class="btn btn-sm btn-secondary m-1">Business</a>
-                    <a href="" class="btn btn-sm btn-secondary m-1">Foods</a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h5 class="mb-4 text-white text-uppercase font-weight-bold">Flickr Photos</h5>
-                <div class="row">
-                    <div class="col-4 mb-3">
-                        <a href=""><img class="w-100" src="img/news-110x110-1.jpg" alt=""></a>
-                    </div>
-                    <div class="col-4 mb-3">
-                        <a href=""><img class="w-100" src="img/news-110x110-2.jpg" alt=""></a>
-                    </div>
-                    <div class="col-4 mb-3">
-                        <a href=""><img class="w-100" src="img/news-110x110-3.jpg" alt=""></a>
-                    </div>
-                    <div class="col-4 mb-3">
-                        <a href=""><img class="w-100" src="img/news-110x110-4.jpg" alt=""></a>
-                    </div>
-                    <div class="col-4 mb-3">
-                        <a href=""><img class="w-100" src="img/news-110x110-5.jpg" alt=""></a>
-                    </div>
-                    <div class="col-4 mb-3">
-                        <a href=""><img class="w-100" src="img/news-110x110-1.jpg" alt=""></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid py-4 px-sm-3 px-md-5" style="background: #111111;">
-        <p class="m-0 text-center">&copy; <a href="#">Your Site Name</a>. All Rights Reserved. 
-		
-		<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-		Design by <a href="https://htmlcodex.com">HTML Codex</a></p>
-    </div>
-    <!-- Footer End -->
-
-
-    <!-- Back to Top -->
     <a href="#" class="btn btn-primary btn-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+
 
 
     <!-- JavaScript Libraries -->

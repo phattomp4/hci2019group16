@@ -5,16 +5,17 @@
     <meta charset="utf-8">
     <title>CLB - Tổ - Đội - Nhóm</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    
+
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
 
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -22,47 +23,89 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 
+
+
+
 </head>
 
 <body>
-    
-    
+
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-2 py-lg-0 px-lg-5">
+            <div class="collapse navbar-collapse justify-content-between px-0 px-lg-3" id="navbarCollapse">
+                <div class="navbar-nav mr-auto py-0">
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Giới thiệu</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="/newsfeed/About/mission.html" class="dropdown-item">Sứ mạng - Tầm nhìn</a>
+                            <a href="/newsfeed/About/council.html" class="dropdown-item">Hội đồng trường</a>
+                            <a href="/newsfeed/About/boss.html" class="dropdown-item">Ban Giám Hiệu</a>
+                        </div>
+                    </div>
+                    <a href="/newsfeed/webproject.html" class="nav-item nav-link">TRANG THÔNG TIN</a>
+                    <a href="index.html" class="nav-item nav-link active">CLB/TỔ/ĐỘI/NHÓM</a>
+                    <a href="https://dkmh.hcmuaf.edu.vn/public/#/home" class="nav-item nav-link">ĐKMH NLU</a>
+                    <a href="/newsfeed/pages/contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <div class="input-group ml-auto d-none d-lg-flex" style="width: 100%; max-width: 300px;">
+                    <input type="text" class="form-control border-0" placeholder="Keyword">
+                    <div class="input-group-append">
+                        <button class="input-group-text bg-primary text-dark border-0 px-3"><i
+                                class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
     <!-- Main News Slider Start -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-7 px-0">
                 <div class="owl-carousel main-carousel position-relative">
                     <div class="position-relative overflow-hidden" style="height: 500px;">
-                        <img class="img-fluid h-100" src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/471130361_980742570747368_8366976416566150547_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEwdc4935yYnfcyoIZ2Ydj6qpe8GqeVqMmql7wap5WoyZ2xaqwUHss-Z93HAaYnyo84QWdSoATvuQng1cRl-N9d&_nc_ohc=Vh_Zlah2iZEQ7kNvgF0Z528&_nc_oc=Adj5A85RSZDd-ICQW1bQuN9qnr8czqhHnCANPlkyn-5jRmGTHfJJwj7ntBLU0496V2c&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=AObSWqvg_XZNNlsIPCGAivi&oh=00_AYB5hnhOyBy-jVIa6sIa_HKFAAInObWoZw6DRx2C8BGsww&oe=678143C9" style="object-fit: cover;">
+                        <img class="img-fluid h-100"
+                            src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/471130361_980742570747368_8366976416566150547_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEwdc4935yYnfcyoIZ2Ydj6qpe8GqeVqMmql7wap5WoyZ2xaqwUHss-Z93HAaYnyo84QWdSoATvuQng1cRl-N9d&_nc_ohc=Vh_Zlah2iZEQ7kNvgF0Z528&_nc_oc=Adj5A85RSZDd-ICQW1bQuN9qnr8czqhHnCANPlkyn-5jRmGTHfJJwj7ntBLU0496V2c&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=AObSWqvg_XZNNlsIPCGAivi&oh=00_AYB5hnhOyBy-jVIa6sIa_HKFAAInObWoZw6DRx2C8BGsww&oe=678143C9"
+                            style="object-fit: cover;">
                         <div class="overlay">
                             <div class="mb-2">
                                 <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
                                     href="">NÔNG LÂM RADIO</a>
-                                <a class="text-white" href="" >22/12/2024</a>
+                                <a class="text-white" href="">22/12/2024</a>
                             </div>
-                            <a class="h2 m-0 text-white text-uppercase font-weight-bold" href="https://www.facebook.com/share/p/177anrzy6d/" target="_blank">Kỉ niệm 80 năm ngày thành lập Quân đội nhân dân Việt Nam...</a>
+                            <a class="h2 m-0 text-white text-uppercase font-weight-bold"
+                                href="https://www.facebook.com/share/p/177anrzy6d/" target="_blank">Kỉ niệm 80 năm ngày
+                                thành lập Quân đội nhân dân Việt Nam...</a>
                         </div>
                     </div>
                     <div class="position-relative overflow-hidden" style="height: 500px;">
-                        <img class="img-fluid h-100" src="https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/470610425_1115491033915861_4571460312723037254_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEZOsgE9TzeZVPaFZ8BknDFvApJhsax6ee8CkmGxrHp57iS9-du9VVDDgqBiBkMSBA_UCGtvBkEtIR55RlUmPBZ&_nc_ohc=vQll2Q0q9GUQ7kNvgFu9sGu&_nc_oc=AdjzaHGte7l4yQuyX-bbTrLD9M8BCn9RrVlIK8KyuGcfgOTKn5koICFDKRTRtSKtjQc&_nc_zt=23&_nc_ht=scontent.fsgn2-7.fna&_nc_gid=A3P7wo8xXSFVlYC512aDE5r&oh=00_AYC4GNM93L1xVta-PtZ-wx2kSzJmEfsKrjmgEszO_Qu64A&oe=678130C9" style="object-fit: cover;">
+                        <img class="img-fluid h-100"
+                            src="https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/470610425_1115491033915861_4571460312723037254_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEZOsgE9TzeZVPaFZ8BknDFvApJhsax6ee8CkmGxrHp57iS9-du9VVDDgqBiBkMSBA_UCGtvBkEtIR55RlUmPBZ&_nc_ohc=vQll2Q0q9GUQ7kNvgFu9sGu&_nc_oc=AdjzaHGte7l4yQuyX-bbTrLD9M8BCn9RrVlIK8KyuGcfgOTKn5koICFDKRTRtSKtjQc&_nc_zt=23&_nc_ht=scontent.fsgn2-7.fna&_nc_gid=A3P7wo8xXSFVlYC512aDE5r&oh=00_AYC4GNM93L1xVta-PtZ-wx2kSzJmEfsKrjmgEszO_Qu64A&oe=678130C9"
+                            style="object-fit: cover;">
                         <div class="overlay">
                             <div class="mb-2">
                                 <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
                                     href="">NHỊP ĐIỆU XANH</a>
                                 <a class="text-white" href="">17/12/2024</a>
                             </div>
-                            <a class="h2 m-0 text-white text-uppercase font-weight-bold" href="https://www.facebook.com/share/p/18Wc1cVBxY/" target="_blank">[RECAP] SINH NHẬT 22 TUỔI: BE YOURSELF...</a>
+                            <a class="h2 m-0 text-white text-uppercase font-weight-bold"
+                                href="https://www.facebook.com/share/p/18Wc1cVBxY/" target="_blank">[RECAP] SINH NHẬT 22
+                                TUỔI: BE YOURSELF...</a>
                         </div>
                     </div>
                     <div class="position-relative overflow-hidden" style="height: 500px;">
-                        <img class="img-fluid h-100" src="https://scontent.fsgn2-11.fna.fbcdn.net/v/t39.30808-6/472741319_1207412148054049_7327281370422757594_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGMH7gZ6rVh7yhuGz9gM0LIJTH7SHot_9clMftIei3_14pDmMGBcuJb8OqEUySLpBcpaMLfZT8jXaP4HGAojNKf&_nc_ohc=MPgEUQMIPY0Q7kNvgEViKce&_nc_oc=AdggTFEaIQKsmEbgZKwtH4uLo_zR8PJxOZE-QgvkpIPE94FFbmzaZtGdSP8oylpuKu4&_nc_zt=23&_nc_ht=scontent.fsgn2-11.fna&_nc_gid=AIfTnb9U1P_Xp1dSNYdpkmO&oh=00_AYAixob2Cyat-YJVtnNsFUrH2hsAuHtIHWNnmtUXS_qNJQ&oe=67812FF5" style="object-fit: cover;">
+                        <img class="img-fluid h-100"
+                            src="https://scontent.fsgn2-11.fna.fbcdn.net/v/t39.30808-6/472741319_1207412148054049_7327281370422757594_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGMH7gZ6rVh7yhuGz9gM0LIJTH7SHot_9clMftIei3_14pDmMGBcuJb8OqEUySLpBcpaMLfZT8jXaP4HGAojNKf&_nc_ohc=MPgEUQMIPY0Q7kNvgEViKce&_nc_oc=AdggTFEaIQKsmEbgZKwtH4uLo_zR8PJxOZE-QgvkpIPE94FFbmzaZtGdSP8oylpuKu4&_nc_zt=23&_nc_ht=scontent.fsgn2-11.fna&_nc_gid=AIfTnb9U1P_Xp1dSNYdpkmO&oh=00_AYAixob2Cyat-YJVtnNsFUrH2hsAuHtIHWNnmtUXS_qNJQ&oe=67812FF5"
+                            style="object-fit: cover;">
                         <div class="overlay">
                             <div class="mb-2">
                                 <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
                                     href="">RẠNG ĐÔNG</a>
                                 <a class="text-white" href="">05/01/2025</a>
                             </div>
-                            <a class="h2 m-0 text-white text-uppercase font-weight-bold" href="https://www.facebook.com/share/p/1CmM2XiDWY/" target="_blank">TẤT NIÊN CÙNG RẠNG ĐÔNG CUNG...</a>
+                            <a class="h2 m-0 text-white text-uppercase font-weight-bold"
+                                href="https://www.facebook.com/share/p/1CmM2XiDWY/" target="_blank">TẤT NIÊN CÙNG RẠNG
+                                ĐÔNG CUNG...</a>
                         </div>
                     </div>
                 </div>
@@ -71,53 +114,69 @@
                 <div class="row mx-0">
                     <div class="col-md-6 px-0">
                         <div class="position-relative overflow-hidden" style="height: 250px;">
-                            <img class="img-fluid w-100 h-100" src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/472124898_1038622191642196_4236850429280513518_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEq5YbuoMGIbaZCmI6QtOqISqjZijDdZ6NKqNmKMN1no8WfyVm268ikBLtrq6WRLw88EMID3UgykNiQgpCoI6cN&_nc_ohc=c5FuVXYF1skQ7kNvgHihdpK&_nc_oc=AdhUOsNSkHqnaK0FpdZE42pV6ZpntgfOOPTqfkv29EBBTWVtHEn2Y6O7gOaDJHBocHI&_nc_zt=23&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=AmfCwO2UDhXA_3GWx926Yoh&oh=00_AYDELiGn1h5jqjFbQTCK3qc2OWTnKQ5PVGaHDDYoMU5CRQ&oe=67813B5C" style="object-fit: cover;">
+                            <img class="img-fluid w-100 h-100"
+                                src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/472124898_1038622191642196_4236850429280513518_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEq5YbuoMGIbaZCmI6QtOqISqjZijDdZ6NKqNmKMN1no8WfyVm268ikBLtrq6WRLw88EMID3UgykNiQgpCoI6cN&_nc_ohc=c5FuVXYF1skQ7kNvgHihdpK&_nc_oc=AdhUOsNSkHqnaK0FpdZE42pV6ZpntgfOOPTqfkv29EBBTWVtHEn2Y6O7gOaDJHBocHI&_nc_zt=23&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=AmfCwO2UDhXA_3GWx926Yoh&oh=00_AYDELiGn1h5jqjFbQTCK3qc2OWTnKQ5PVGaHDDYoMU5CRQ&oe=67813B5C"
+                                style="object-fit: cover;">
                             <div class="overlay">
                                 <div class="mb-2">
                                     <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
                                         href="">Cán bộ Đoàn Ngôi Sao Xanh</a>
                                     <a class="text-white" href=""><small>01/01/2025</small></a>
                                 </div>
-                                <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="https://www.facebook.com/share/p/1DwSMuswRn/" target="_blank"> Tết đã đến bên ta rồi đây các bạn ơi!!...</a>
+                                <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold"
+                                    href="https://www.facebook.com/share/p/1DwSMuswRn/" target="_blank"> Tết đã đến bên
+                                    ta rồi đây các bạn ơi!!...</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 px-0">
                         <div class="position-relative overflow-hidden" style="height: 250px;">
-                            <img class="img-fluid w-100 h-100" src="https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/471761821_562832633387565_9071689686826886264_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEU1qpUgihecbyXK-_-2MbvoB304k1p2DKgHfTiTWnYMtg7AllCwhh2N4JNMS0t5j9up49nuA0pJ0AcRMGGkP-M&_nc_ohc=XZpxMJej6J4Q7kNvgEGY-0C&_nc_oc=Adhe__SJMJsGDVF1EN3ELYIwA9-tLqdZ-VwIyjy3pOcCfUsH577OBOBQiyWp4FjEY8Y&_nc_zt=23&_nc_ht=scontent.fsgn2-7.fna&_nc_gid=ANWq9CQSu3yUKFLzAVK2OhH&oh=00_AYDHz4BejuEDTQXD-kk_o3tcnHBqAq1ZGVIpjy18Aa7Xpw&oe=67813F6D" style="object-fit: cover;">
+                            <img class="img-fluid w-100 h-100"
+                                src="https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/471761821_562832633387565_9071689686826886264_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEU1qpUgihecbyXK-_-2MbvoB304k1p2DKgHfTiTWnYMtg7AllCwhh2N4JNMS0t5j9up49nuA0pJ0AcRMGGkP-M&_nc_ohc=XZpxMJej6J4Q7kNvgEGY-0C&_nc_oc=Adhe__SJMJsGDVF1EN3ELYIwA9-tLqdZ-VwIyjy3pOcCfUsH577OBOBQiyWp4FjEY8Y&_nc_zt=23&_nc_ht=scontent.fsgn2-7.fna&_nc_gid=ANWq9CQSu3yUKFLzAVK2OhH&oh=00_AYDHz4BejuEDTQXD-kk_o3tcnHBqAq1ZGVIpjy18Aa7Xpw&oe=67813F6D"
+                                style="object-fit: cover;">
                             <div class="overlay">
                                 <div class="mb-2">
                                     <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
                                         href="">CLB ĐỒNG HÀNH - AC</a>
                                     <a class="text-white" href=""><small>29/12/2024</small></a>
                                 </div>
-                                <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="https://www.facebook.com/share/p/15KdB4URf3/" target="_blank">Lời nhắc nhẹ nhàng cho ngày thi...</a>
+                                <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold"
+                                    href="https://www.facebook.com/share/p/15KdB4URf3/" target="_blank">Lời nhắc nhẹ
+                                    nhàng cho ngày thi...</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 px-0">
                         <div class="position-relative overflow-hidden" style="height: 250px;">
-                            <img class="img-fluid w-100 h-100" src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/470887908_1007392124766553_3846849898868927977_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHgns-W4aCf7EnxuORES2EgNXOCqex3XRE1c4Kp7HddEXmL9xRvzLEbb1eQUVIK94a6Ns37Uofpmvv1FIN4BzMJ&_nc_ohc=jS1FQ1dWUoUQ7kNvgEQqHKM&_nc_oc=AdhAI6oy23eIL92MgdOSMxskpM0t5jbP3EhsxctQzr7tby2OU-prMbn42KTJ5fHdjHw&_nc_zt=23&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=AgsqOa3_vDwfELDEVaalamo&oh=00_AYAnCZXcVZPR-aGCLL3Z8_1YQLs26HFlmQ1k6LEe8WOiGQ&oe=67812BF3" style="object-fit: cover;">
+                            <img class="img-fluid w-100 h-100"
+                                src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/470887908_1007392124766553_3846849898868927977_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHgns-W4aCf7EnxuORES2EgNXOCqex3XRE1c4Kp7HddEXmL9xRvzLEbb1eQUVIK94a6Ns37Uofpmvv1FIN4BzMJ&_nc_ohc=jS1FQ1dWUoUQ7kNvgEQqHKM&_nc_oc=AdhAI6oy23eIL92MgdOSMxskpM0t5jbP3EhsxctQzr7tby2OU-prMbn42KTJ5fHdjHw&_nc_zt=23&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=AgsqOa3_vDwfELDEVaalamo&oh=00_AYAnCZXcVZPR-aGCLL3Z8_1YQLs26HFlmQ1k6LEe8WOiGQ&oe=67812BF3"
+                                style="object-fit: cover;">
                             <div class="overlay">
                                 <div class="mb-2">
                                     <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
                                         href="">Tổ Tu Dưỡng HẠT GIỐNG ĐỎ</a>
                                     <a class="text-white" href=""><small>22/12/2024</small></a>
                                 </div>
-                                <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="https://www.facebook.com/share/p/1YSGZjyxam/" target="_blank">KỶ NIỆM 80 NĂM NGÀY THÀNH LẬP QUÂN ĐỘI...</a>
+                                <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold"
+                                    href="https://www.facebook.com/share/p/1YSGZjyxam/" target="_blank">KỶ NIỆM 80 NĂM
+                                    NGÀY THÀNH LẬP QUÂN ĐỘI...</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 px-0">
                         <div class="position-relative overflow-hidden" style="height: 250px;">
-                            <img class="img-fluid w-100 h-100" src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/472648438_1199776468532369_7104636268204743594_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeESCNc8QgJmp563eDfDMHTfMUshbYQZdXExSyFthBl1cVRScU3uE0dtXKkm4PWHl6U8Kkf14LpTXokFdHzwVHrD&_nc_ohc=Qn8ZOsvbuxoQ7kNvgF40EkY&_nc_oc=Adgq1Omy5qko_8iaMFre2yfq8mKhXYgK1sGPEkX0JXEsXnIuFuc-u8QiNUHVN63CwHA&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=AWvzISrXFwHm9qvWBo9Zm3D&oh=00_AYCJnStvPVjKLkT351V2kNphMcC3kRMOJiJfuNnZ2pNIrw&oe=678158C1" style="object-fit: cover;">
+                            <img class="img-fluid w-100 h-100"
+                                src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/472648438_1199776468532369_7104636268204743594_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeESCNc8QgJmp563eDfDMHTfMUshbYQZdXExSyFthBl1cVRScU3uE0dtXKkm4PWHl6U8Kkf14LpTXokFdHzwVHrD&_nc_ohc=Qn8ZOsvbuxoQ7kNvgF40EkY&_nc_oc=Adgq1Omy5qko_8iaMFre2yfq8mKhXYgK1sGPEkX0JXEsXnIuFuc-u8QiNUHVN63CwHA&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=AWvzISrXFwHm9qvWBo9Zm3D&oh=00_AYCJnStvPVjKLkT351V2kNphMcC3kRMOJiJfuNnZ2pNIrw&oe=678158C1"
+                                style="object-fit: cover;">
                             <div class="overlay">
                                 <div class="mb-2">
                                     <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
                                         href="">NONG LAM BUFFALOESES</a>
                                     <a class="text-white" href=""><small>06/01/2025</small></a>
                                 </div>
-                                <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="https://www.facebook.com/share/p/1ArYRn5APv/" target="_blank">GIẢI BÓNG ĐÁ THANH NIÊN SINH VIÊN...</a>
+                                <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold"
+                                    href="https://www.facebook.com/share/p/1ArYRn5APv/" target="_blank">GIẢI BÓNG ĐÁ
+                                    THANH NIÊN SINH VIÊN...</a>
                             </div>
                         </div>
                     </div>
@@ -134,13 +193,22 @@
             <div class="row align-items-center bg-dark">
                 <div class="col-12">
                     <div class="d-flex justify-content-between">
-                        <div class="bg-primary text-dark text-center font-weight-medium py-2" style="width: 170px;">Tin tức mới nhất</div>
+                        <div class="bg-primary text-dark text-center font-weight-medium py-2" style="width: 170px;">Tin
+                            tức mới nhất</div>
                         <div class="owl-carousel tranding-carousel position-relative d-inline-flex align-items-center ml-3"
                             style="width: calc(100% - 170px); padding-right: 90px;">
-                            <div class="text-truncate"><a class="text-white text-uppercase font-weight-semi-bold" href="https://www.facebook.com/share/p/177anrzy6d/" target="_blank">Kỉ niệm 80 năm ngày thành lập Quân đội nhân dân Việt Nam (22/12/1944 - 22/12/2024)</a></div>
-                            <div class="text-truncate"><a class="text-white text-uppercase font-weight-semi-bold" href="https://www.facebook.com/share/p/17xRYjWaHN/" target="_blank">[RECAP] SINH NHẬT 22 TUỔI: BE YOURSELF</a></div>
-                            <div class="text-truncate"><a class="text-white text-uppercase font-weight-semi-bold" href="https://www.facebook.com/share/p/154bt2MDWj/" target="_blank">TẤT NIÊN CÙNG RẠNG ĐÔNG CUNG</a></div>
-                            <div class="text-truncate"><a class="text-white text-uppercase font-weight-semi-bold" href="https://www.facebook.com/share/p/14XvgHiKRm/" target="_blank">Tết đã đến bên ta rồi đây các bạn ơi!!</a></div>
+                            <div class="text-truncate"><a class="text-white text-uppercase font-weight-semi-bold"
+                                    href="https://www.facebook.com/share/p/177anrzy6d/" target="_blank">Kỉ niệm 80 năm
+                                    ngày thành lập Quân đội nhân dân Việt Nam (22/12/1944 - 22/12/2024)</a></div>
+                            <div class="text-truncate"><a class="text-white text-uppercase font-weight-semi-bold"
+                                    href="https://www.facebook.com/share/p/17xRYjWaHN/" target="_blank">[RECAP] SINH
+                                    NHẬT 22 TUỔI: BE YOURSELF</a></div>
+                            <div class="text-truncate"><a class="text-white text-uppercase font-weight-semi-bold"
+                                    href="https://www.facebook.com/share/p/154bt2MDWj/" target="_blank">TẤT NIÊN CÙNG
+                                    RẠNG ĐÔNG CUNG</a></div>
+                            <div class="text-truncate"><a class="text-white text-uppercase font-weight-semi-bold"
+                                    href="https://www.facebook.com/share/p/14XvgHiKRm/" target="_blank">Tết đã đến bên
+                                    ta rồi đây các bạn ơi!!</a></div>
                         </div>
                     </div>
                 </div>
@@ -149,7 +217,7 @@
     </div>
     <!-- Breaking News End -->
 
-    
+
 
     <!-- Featured News Slider Start -->
     <div class="container-fluid pt-5 mb-3">
@@ -271,7 +339,9 @@
                 </div>
 
                 <div class="position-relative overflow-hidden" style="height: 300px;">
-                    <img class="img-fluid h-100" src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/471162262_983213347166957_6220423107464373950_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHi2Ud_OIUTDrf9mBog4gWXBPAhiJfgq-IE8CGIl-Cr4u80oTc8ms6c99ExjSSGbVSxwQEB1pyOudyPikH7Qco4&_nc_ohc=-lZQcu4zVEsQ7kNvgEv9Q6M&_nc_oc=AdisvQd-5L6YFGsV-NHkYEmWxihl39114z9t4-jPyqq7FZnmyE6XfGl0TcCQnNuVrr8&_nc_zt=23&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=AHQH5nLBtYZYcYkseE1rQJL&oh=00_AYBAuo_6yxaZ-14n4taCMHXB6rp-Y_7U7pA9mT06en_HxA&oe=67817E81" style="object-fit: cover;">
+                    <img class="img-fluid h-100"
+                        src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/471162262_983213347166957_6220423107464373950_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHi2Ud_OIUTDrf9mBog4gWXBPAhiJfgq-IE8CGIl-Cr4u80oTc8ms6c99ExjSSGbVSxwQEB1pyOudyPikH7Qco4&_nc_ohc=-lZQcu4zVEsQ7kNvgEv9Q6M&_nc_oc=AdisvQd-5L6YFGsV-NHkYEmWxihl39114z9t4-jPyqq7FZnmyE6XfGl0TcCQnNuVrr8&_nc_zt=23&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=AHQH5nLBtYZYcYkseE1rQJL&oh=00_AYBAuo_6yxaZ-14n4taCMHXB6rp-Y_7U7pA9mT06en_HxA&oe=67817E81"
+                        style="object-fit: cover;">
                     <div class="overlay">
                         <div class="mb-2">
                             <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
@@ -362,10 +432,12 @@
                                 <div class="bg-white border border-top-0 p-4">
                                     <div class="mb-2">
                                         <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
-                                            href="https://www.facebook.com/NongLamUniversity.Radio" target="_blank">Nông lâm radio</a>
+                                            href="https://www.facebook.com/NongLamUniversity.Radio" target="_blank">Nông
+                                            lâm radio</a>
                                         <a class="text-body" href=""><small>1/1/2025</small></a>
                                     </div>
-                                    <a class="h4 d-block mb-3 text-secondary text-uppercase font-weight-bold" href="">LỄ
+                                    <a class="h4 d-block mb-3 text-secondary text-uppercase font-weight-bold"
+                                        target="_blank" href="https://www.facebook.com/share/p/15opJdS8TH/">LỄ
                                         TUYÊN DƯƠNG SINH VIÊN 5 TỐT...</a>
                                     <p class="m-0">Vào lúc 18h00 ngày 31/12/2024, trường Đại học Nông Lâm TP.Hồ Chí Minh
                                         đã diễn ra “Lễ tuyên dương sinh viên 5 tốt” cùng chương trình “Liên hoan tiếng
@@ -382,11 +454,13 @@
                                 <div class="bg-white border border-top-0 p-4">
                                     <div class="mb-2">
                                         <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
-                                            href="https://www.facebook.com/clbdonghanh.ac" target="_blank">CLB ĐỒNG hành</a>
+                                            href="https://www.facebook.com/clbdonghanh.ac" target="_blank">CLB ĐỒNG
+                                            hành</a>
                                         <a class="text-body" href=""><small>18/12/2024</small></a>
                                     </div>
                                     <a class="h4 d-block mb-3 text-secondary text-uppercase font-weight-bold"
-                                        href="">Xuân tình nguyện 2025...</a>
+                                        href="https://www.facebook.com/share/p/1Ex6mTsi26/" target="_blank">Xuân tình
+                                        nguyện 2025...</a>
                                     <p class="m-0">TẾT ĐẾN XUÂN VỀ!!! TUYỂN QUÂN CHIẾN DỊCH "XUÂN TÌNH NGUYỆN"</p>
                                 </div>
 
@@ -401,11 +475,13 @@
                                 <div class="bg-white border border-top-0 p-4">
                                     <div class="mb-2">
                                         <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
-                                            href="https://www.facebook.com/totdrlhatgiongdo" target="_blank">Tổ tdrl hạt giống đỏ</a>
-                                        <a class="text-body" href=""><small>5/12/2024</small></a>
+                                            href="https://www.facebook.com/totdrlhatgiongdo" target="_blank">Tổ tdrl hạt
+                                            giống đỏ</a>
+                                        <a class="text-body"><small>5/12/2024</small></a>
                                     </div>
                                     <a class="h4 d-block mb-3 text-secondary text-uppercase font-weight-bold"
-                                        href="">Chiếu phim 2024” - chủ đề “Tiếp bước</a>
+                                        href="https://www.facebook.com/share/p/1DzB1W6vRz/" target="_blank">Chiếu phim
+                                        2024” - chủ đề “Tiếp bước</a>
                                     <p class="m-0">Chương trình “Chiếu phim 2024” - chủ đề “ Tiếp Bước” của Tổ Tu Dưỡng
                                         Rèn Luyện HẠT GIỐNG ĐỎ không chỉ là khung giờ thư giãn mà còn là cơ hội để chúng
                                         ta tìm hiểu những bài học quý giá từ lịch sử dân tộc, hiểu rõ hơn về những sự
@@ -423,11 +499,13 @@
                                 <div class="bg-white border border-top-0 p-4">
                                     <div class="mb-2">
                                         <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
-                                            href="https://www.facebook.com/ClbCanBoDoanNgoiSaoXanh" target="_blank">CLB Cán bộ Đoàn Ngôi Sao Xanh</a>
-                                        <a class="text-body" href=""><small>12/12/2024</small></a>
+                                            href="https://www.facebook.com/ClbCanBoDoanNgoiSaoXanh" target="_blank">CLB
+                                            Cán bộ Đoàn Ngôi Sao Xanh</a>
+                                        <a class="text-body"><small>12/12/2024</small></a>
                                     </div>
                                     <a class="h4 d-block mb-3 text-secondary text-uppercase font-weight-bold"
-                                        href="">HÀNH TRÌNH ĐI TÌM ĐỊA CHỈ ĐỎ 2024</a>
+                                        href="https://www.facebook.com/share/p/1VCiXC2R1n/" target="_blank">HÀNH TRÌNH
+                                        ĐI TÌM ĐỊA CHỈ ĐỎ 2024</a>
                                     <p class="m-0">Tại cuộc hành trình ấy, các "hành khách" của chúng ta được hóa thân
                                         thành các nhà thám hiểm, vượt qua các thử thách cam go, khám phá các địa điểm vô
                                         cùng đặc biệt. Qua đó, giúp các bạn hiểu rõ hơn về các chứng nhân lịch sử, về
@@ -441,7 +519,7 @@
                 </div>
 
                 <div class="col-lg-4">
-                    
+
 
                     <!-- Ads Start -->
                     <div class="mb-3">
@@ -449,11 +527,14 @@
                             <h4 class="m-0 text-uppercase font-weight-bold">chứng nhận đạt chuẩn AUN-QA</h4>
                         </div>
 
-                        
+
                         <div class="bg-white text-center border border-top-0 p-3">
-                            <a href=""><img class="img-fluid" src="https://qmo.nlu.edu.vn/wp-content/uploads/2019/12/A-IMG_0683-1140x540.jpg" alt=""></a>
-                            <p>Trường Đại học Nông Lâm TP.HCM nhận Giấy chứng nhận đạt chuẩn AUN-QA của các chương trình đào tạo</p>
-                        
+                            <a href=""><img class="img-fluid"
+                                    src="https://qmo.nlu.edu.vn/wp-content/uploads/2019/12/A-IMG_0683-1140x540.jpg"
+                                    alt=""></a>
+                            <p>Trường Đại học Nông Lâm TP.HCM nhận Giấy chứng nhận đạt chuẩn AUN-QA của các chương trình
+                                đào tạo</p>
+
                         </div>
                     </div>
                     <!-- Ads End -->
@@ -462,53 +543,74 @@
                     <div class="mb-3">
                         <div class="section-title mb-0">
                             <h4 class="m-0 text-uppercase font-weight-bold">Được quan tâm</h4>
-                            <a class="text-secondary font-weight-medium text-decoration-none" href="">Tất cả</a>
+                            <a class="text-secondary font-weight-medium text-decoration-none" href="contact.html">Tất
+                                cả</a>
                         </div>
                         <div class="bg-white border border-top-0 p-3">
                             <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
-                                <img class="img-logo" src="https://scontent.fsgn2-10.fna.fbcdn.net/v/t39.30808-6/353835332_287436546962968_774309216565653550_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=zkBH6AhHDPQQ7kNvgFxQTe5&_nc_oc=Adjip4KULllCR19Tp1VFIr1AiXoSgAtYS5r70GRCO5Hzf0NhtMEdczQFM9Zlevby5KM&_nc_zt=23&_nc_ht=scontent.fsgn2-10.fna&_nc_gid=AIFqy2ausnp24RQcRCnucI_&oh=00_AYBKXjwHUiuPACGiUHDd5lAl4mneDYNyCQcsdSXj-ZnKag&oe=67813B60" alt="">
+                                <img class="img-logo"
+                                    src="https://scontent.fsgn2-10.fna.fbcdn.net/v/t39.30808-6/353835332_287436546962968_774309216565653550_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=zkBH6AhHDPQQ7kNvgFxQTe5&_nc_oc=Adjip4KULllCR19Tp1VFIr1AiXoSgAtYS5r70GRCO5Hzf0NhtMEdczQFM9Zlevby5KM&_nc_zt=23&_nc_ht=scontent.fsgn2-10.fna&_nc_gid=AIFqy2ausnp24RQcRCnucI_&oh=00_AYBKXjwHUiuPACGiUHDd5lAl4mneDYNyCQcsdSXj-ZnKag&oe=67813B60"
+                                    alt="">
                                 <div
                                     class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
-                                    
-                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href="https://www.facebook.com/ctxh2001nlu" target="_blank">Đội Công Tác Xã Hội</a>
+
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                        href="https://www.facebook.com/ctxh2001nlu" target="_blank">Đội Công Tác Xã
+                                        Hội</a>
                                 </div>
                             </div>
                             <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
-                                <img class="img-logo" src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/463781834_511785255158970_6140787196725339504_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=G9zHQnEMAqwQ7kNvgFHOffc&_nc_oc=AdjgHiUj8ccumHa-S7aOIADcZfEcMvJPh9NCXIZ-yTu7aW0csxnUvYA7axYEEz4SIx0&_nc_zt=23&_nc_ht=scontent.fsgn2-3.fna&_nc_gid=A0wY1RWhCT07MPQA0GawL9g&oh=00_AYDsL4S9SJH_46DvX_u5Ta0VpqGxsePl08J8SbGwryJyFw&oe=6781518E" alt="">
+                                <img class="img-logo"
+                                    src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/463781834_511785255158970_6140787196725339504_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=G9zHQnEMAqwQ7kNvgFHOffc&_nc_oc=AdjgHiUj8ccumHa-S7aOIADcZfEcMvJPh9NCXIZ-yTu7aW0csxnUvYA7axYEEz4SIx0&_nc_zt=23&_nc_ht=scontent.fsgn2-3.fna&_nc_gid=A0wY1RWhCT07MPQA0GawL9g&oh=00_AYDsL4S9SJH_46DvX_u5Ta0VpqGxsePl08J8SbGwryJyFw&oe=6781518E"
+                                    alt="">
                                 <div
                                     class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
-                                    
-                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href="https://www.facebook.com/clbdonghanh.ac" target="_blank">clb đồng hành - ac</a>
+
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                        href="https://www.facebook.com/clbdonghanh.ac" target="_blank">clb đồng hành -
+                                        ac</a>
                                 </div>
                             </div>
                             <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
-                                <img class="img-logo" src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t39.30808-6/275099065_2995207807457291_4283222669435867672_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=uRccmGtgt1YQ7kNvgF35o97&_nc_oc=Adiw7cbL1iU8jcrbsWG3Jszo2AVD55rElfkisFQdjFM5I7ozruhqNrqwOJD-SpFllfg&_nc_zt=23&_nc_ht=scontent.fsgn2-4.fna&_nc_gid=AoGZOXAANezaRiKNVFlYvYJ&oh=00_AYD9McTHrQF_VV9d61l6SEj5v-QbXF5bX62na9f4Upfg3Q&oe=67814E1E" alt="">
+                                <img class="img-logo"
+                                    src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t39.30808-6/275099065_2995207807457291_4283222669435867672_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=uRccmGtgt1YQ7kNvgF35o97&_nc_oc=Adiw7cbL1iU8jcrbsWG3Jszo2AVD55rElfkisFQdjFM5I7ozruhqNrqwOJD-SpFllfg&_nc_zt=23&_nc_ht=scontent.fsgn2-4.fna&_nc_gid=AoGZOXAANezaRiKNVFlYvYJ&oh=00_AYD9McTHrQF_VV9d61l6SEj5v-QbXF5bX62na9f4Upfg3Q&oe=67814E1E"
+                                    alt="">
                                 <div
                                     class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
-                                    
-                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href="https://www.facebook.com/Vnxk.nhip.dieu.xanh" target="_blank">Đội VNXK Nhịp điệu xanh</a>
+
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                        href="https://www.facebook.com/Vnxk.nhip.dieu.xanh" target="_blank">Đội VNXK
+                                        Nhịp điệu xanh</a>
                                 </div>
                             </div>
                             <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
-                                <img class="img-logo" src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/309121358_459682656186698_5859314364442846345_n.png?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=T1f_4--LxQ4Q7kNvgFxCh_4&_nc_oc=Adhjx5cIvIAhcurwMuDHSgFnh86SrDIanMupOuvCRvk7AksX85r-nQ3BEOKmgoHL0Og&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=Ak4FPFMKPM3zGVrEA4zVGF3&oh=00_AYBSE6nIAN33KJIteLIvLmbJBtGJF4Uxb8X44yX2h8dhsg&oe=678167FC" alt="">
+                                <img class="img-logo"
+                                    src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/309121358_459682656186698_5859314364442846345_n.png?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=T1f_4--LxQ4Q7kNvgFxCh_4&_nc_oc=Adhjx5cIvIAhcurwMuDHSgFnh86SrDIanMupOuvCRvk7AksX85r-nQ3BEOKmgoHL0Og&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=Ak4FPFMKPM3zGVrEA4zVGF3&oh=00_AYBSE6nIAN33KJIteLIvLmbJBtGJF4Uxb8X44yX2h8dhsg&oe=678167FC"
+                                    alt="">
                                 <div
                                     class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
-                                    
-                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href="https://www.facebook.com/NongLamUniversity.Radio" target="_blank">CLB truyền thông nông lâm radio</a>
+
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                        href="https://www.facebook.com/NongLamUniversity.Radio" target="_blank">CLB
+                                        truyền thông nông lâm radio</a>
                                 </div>
                             </div>
                             <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
-                                <img class="img-logo" src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-1/305760903_520897403372197_1677000767914989711_n.png?stp=c301.0.1446.1447a_dst-png_s200x200&_nc_cat=110&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=b78ANgs53JQQ7kNvgHsKeLo&_nc_oc=AdiTrpNc417c1KqJfvGKszbeBoOMNfGtQM5d9Hv5vWXShMD_j3dj404-UJ9-ZfN0HAk&_nc_zt=24&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=APxpmAriEuZzeu-UCmfBN9G&oh=00_AYBEmbsm5PQCgMUBeKE4XrngiwhnRTM0tyfjTc0dGCEQ9Q&oe=67817128" alt="">
+                                <img class="img-logo"
+                                    src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-1/305760903_520897403372197_1677000767914989711_n.png?stp=c301.0.1446.1447a_dst-png_s200x200&_nc_cat=110&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=b78ANgs53JQQ7kNvgHsKeLo&_nc_oc=AdiTrpNc417c1KqJfvGKszbeBoOMNfGtQM5d9Hv5vWXShMD_j3dj404-UJ9-ZfN0HAk&_nc_zt=24&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=APxpmAriEuZzeu-UCmfBN9G&oh=00_AYBEmbsm5PQCgMUBeKE4XrngiwhnRTM0tyfjTc0dGCEQ9Q&oe=67817128"
+                                    alt="">
                                 <div
                                     class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
-                                    
-                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href="https://www.facebook.com/doivannghe.rangdong" target="_blank">Đội văn nghệ rạng đông</a>
+
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                        href="https://www.facebook.com/doivannghe.rangdong" target="_blank">Đội văn nghệ
+                                        rạng đông</a>
                                 </div>
-                            </div>
                             </div>
                         </div>
+                    </div>
 
-                        <!-- Nhận tin tức qua mail Start -->
+                    <!-- Nhận tin tức qua mail Start -->
                     <div class="mb-3">
                         <div class="section-title mb-0">
                             <h4 class="m-0 text-uppercase font-weight-bold">Nhận tin tức qua mail</h4>
@@ -521,18 +623,18 @@
                                     <button class="btn btn-primary font-weight-bold px-3">OK</button>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
-                    </div>
-                    <!-- Popular News End -->
-
-                    
-                    <!-- Nhận tin tức qua mail End -->
-
                 </div>
+                <!-- Popular News End -->
+
+
+                <!-- Nhận tin tức qua mail End -->
+
             </div>
         </div>
+    </div>
     </div>
     <!-- News With Sidebar End -->
 
