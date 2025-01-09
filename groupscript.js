@@ -34,17 +34,17 @@ function populateTable(weekId) {
 
     // Sample data, you can modify this to include specific data for each week
     const data = {
-        week1: [
-            { maSV: '23130232', hoTen: 'Tô Tấn Phát', congViec: 'Tab Home_01 / About / Thanh Menu', ketQua: 'Hoàn thành', tienDo: '100%' },
-            { maSV: '23130327', hoTen: 'Nguyễn Hoài Thương', congViec: 'Design table ở Group Diary và Requiment', ketQua: 'Hoàn thành', tienDo: '100%' },
-            { maSV: '23130355', hoTen: 'Lê Quang Trường', congViec: 'Thanh Menu / Home_02 / contact / footer', ketQua: 'Hoàn thành', tienDo: '100%' },
-            { maSV: '22130105', hoTen: 'Phan Thanh Huy', congViec: 'Login / Register / Forgot Pass trên web project', ketQua: 'Hoàn thành', tienDo: '100%' },
-            { maSV: '22130150', hoTen: 'Võ Phước Lộc', congViec: 'Login / Register / Forgot Pass trên web project', ketQua: 'Hoàn thành', tienDo: '100%' }
+        week1 : [
+            { maSV: '23130232', hoTen: 'Tô Tấn Phát', congViec: 'Tìm hình ảnh, ý tưởng / Header / Result', ketQua: 'Hoàn thành', tienDo: '100%' },
+            { maSV: '23130327', hoTen: 'Nguyễn Hoài Thương', congViec: 'Tab Requirement / Group diary', ketQua: 'Hoàn thành', tienDo: '100%' },
+            { maSV: '23130355', hoTen: 'Lê Quang Trường', congViec: 'Bản thiết kế trên giấy / CONTACT / Footer', ketQua: 'Hoàn thành', tienDo: '100%' },
+            { maSV: '22130105', hoTen: 'Phan Thanh Huy', congViec: 'Tìm hình ảnh, ý tưởng / About', ketQua: 'Hoàn thành', tienDo: '100%' },
+            { maSV: '22130150', hoTen: 'Võ Phước Lộc', congViec: 'Tab IMPLEMENTATION / DESIGN', ketQua: 'Hoàn thành', tienDo: '100%' }
 
 
         ],
         week2: [
-            { maSV: '23130232', hoTen: 'Tô Tấn Phát', congViec: 'Lên ý tưởng cho web nhóm, thảo luận, phân chia công việc', ketQua: 'Hoàn thành', tienDo: '100%' },
+            { maSV: '23130232', hoTen: 'Tô Tấn Phát', congViec: 'Lên ý tưởng cho web project, thảo luận, phân chia công việc', ketQua: 'Hoàn thành', tienDo: '100%' },
             { maSV: '23130327', hoTen: 'Nguyễn Hoài Thương', congViec: 'Lên ý tưởng cho mục contact và chú ý trang thông tin,', ketQua: 'Hoàn thành', tienDo: '100%' },
             { maSV: '23130355', hoTen: 'Lê Quang Trường', congViec: 'Lên ý tưởng cho trang thông tin của project', ketQua: 'Hoàn thành', tienDo: '100%' },
             { maSV: '22130105', hoTen: 'Phan Thanh Huy', congViec: 'Lên ý tưởng về nội dung, design phần đăng nhập, đăng kí', ketQua: 'Hoàn thành', tienDo: '100%' },

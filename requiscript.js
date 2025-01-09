@@ -7,11 +7,11 @@ function populateRequirementTable() {
 
   // Sample data without the "Number" field as it will be auto-generated
   const data = [
-    { functional: 'Thiết kế / tab bảng tin CLB tổ đội nhóm', designer: 'Thương', performer: 'Thương', intendTime: '3 tuần', status: 'Hoàn thành' },
-    { functional: 'Registration / menu Header / contact team', designer: 'Phát', performer: 'Phát', intendTime: '3 tuần', status: 'Hoàn thành' },
-    { functional: 'Ý tưởng / Footer / chức năng góp ý xây dựng', designer: 'Trường', performer: 'Trường', intendTime: '3 ngày', status: 'Hoàn thành' },
-    { functional: 'Home / tab Bảng tin trường', designer: 'Lộc', performer: 'Lộc', intendTime: '3 tuần', status: 'Hoàn thành' },
-    { functional: 'Login / thu thập thông tin về các hoạt động / contact nhà trường ', designer: 'Huy', performer: 'Huy', intendTime: '3 tuần', status: 'Hoàn thành' },
+    { functional: 'Header trang CLB/TỔ/ĐỘI/NHÓM / Slideshow / Tin tức mới nhất', designer: 'Phát', performer: 'Phát', intendTime: '3 tuần', status: 'Hoàn thành' },
+    { functional: 'Mục CHÚ Ý TRANG THÔNG TIN / tab bảng tin CLB/TỔ/ĐỘI/NHÓM / CONTACT', designer: 'Thương', performer: 'Thương', intendTime: '3 tuần', status: 'Hoàn thành' },
+    { functional: 'Bản thiết kế trên giấy / Header TRANG THÔNG TIN / Footer', designer: 'Trường', performer: 'Trường', intendTime: '3 tuần', status: 'Hoàn thành' },
+    { functional: 'Đăng nhập, Đăng ký / Bản tin TRANG THÔNG TIN ', designer: 'Huy', performer: 'Huy', intendTime: '3 tuần', status: 'Hoàn thành' },
+    { functional: 'Tìm hình ảnh, ý tưởng / TRANG GIỚI THIỆU', designer: 'Lộc', performer: 'Lộc', intendTime: '3 tuần', status: 'Hoàn thành' },
     // Add more sample rows as needed
   ];
 
