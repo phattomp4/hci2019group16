@@ -10856,13 +10856,6 @@ h6,
   list-style-type: none;
 }
 
-.img-logo {
-  max-width: 33%;
-  border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
-
-}
-
 .navbar {
   position: fixed;
   /* Giữ cố định */
@@ -10902,3 +10895,16 @@ h6,
     /* Thu nhỏ chữ trong ô tìm kiếm */
   }
 }
+
+.img-logo {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+  
+  max-width: 33%;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+
+}
+
+
