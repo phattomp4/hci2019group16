@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>BẢN TIN CLB/TỔ/ĐỘI/NHÓM</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        .img-logo {
+            max-width: 100%;
+            height: 130px;
+            height: 100%;
+            width: 130px;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+
+
+        .col-lg-8>.bg-white {
+            padding: 20px;
+            /* Tăng khoảng cách bên trong */
+            border: 1px solid #ddd;
+            /* Thêm viền để phân biệt */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            /* Hiệu ứng đổ bóng */
+            background-color: #fff;
+            /* Đảm bảo nền trắng */
+        }
+
+        .col-lg-8 {
+            max-width: 1400px !important;
+            margin: 0 auto !important;
+        }
+
+        /* Thay đổi bố cục các hàng ngang */
+        .bg-white.border.border-top-0.p-3 {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: space-between;
+        }
+
+        .d-flex.align-items-center.bg-white.mb-3 {
+            width: calc(50% - 20px);
+            box-sizing: border-box;
+            height: auto;
+        }
+
+        @media (max-width: 991.98px) {
+            .d-flex.align-items-center.bg-white.mb-3 {
+                width: 100%;
+                /* Hiển thị 1 phần tử mỗi hàng */
+            }
+        }
+
+        .bg-white .d-flex {
+            position: relative;
+            box-sizing: border-box;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            /* Thêm hiệu ứng */
+        }
+
+        .bg-white .d-flex:hover {
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            /* Thêm bóng mờ */
+            color: inherit;
+        }
+
+        .bg-white .d-flex a {
+            display: flex;
+            text-decoration: none;
+            /* Loại bỏ gạch dưới của liên kết */
+        }
+
+        .navbar {
+            position: fixed;
+            /* Giữ cố định */
+            top: 0;
+            /* Căn chỉnh ở đầu trang */
+            left: 0;
+            /* Căn chỉnh sang bên trái */
+            width: 100%;
+            /* Chiều rộng toàn màn hình */
+            z-index: 1000;
+            /* Ưu tiên hiển thị phía trên các phần tử khác */
+            background-color: #000;
+            /* Giữ màu nền */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-2 py-lg-0 px-lg-5">
+            <div class="collapse navbar-collapse justify-content-between px-0 px-lg-3" id="navbarCollapse">
+                <div class="navbar-nav mr-auto py-0">
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Giới thiệu</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="../About/mission.html" class="dropdown-item">Sứ mạng - Tầm nhìn</a>
+                            <a href="../About/council.html" class="dropdown-item">Hội đồng trường</a>
+                            <a href="../About/boss.html" class="dropdown-item">Ban Giám Hiệu</a>
+                        </div>
+                    </div>
+                    <a href="../webproject.html" class="nav-item nav-link">TRANG THÔNG TIN</a>
+                    <a href="index.html" class="nav-item nav-link "></a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">CLB/TỔ/ĐỘI/NHÓM</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="index.html" class="dropdown-item">Tin tức</a>
+                            <a href="contact.html" class="dropdown-item">Tổng hợp</a>
+                        </div>
+                    </div>
+                    <a href="https://dkmh.hcmuaf.edu.vn/public/#/home" class="nav-item nav-link">ĐKMH NLU</a>
+                    <a href="../pages/contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <div class="input-group ml-auto d-none d-lg-flex" style="width: 100%; max-width: 300px;">
+                    <input type="text" class="form-control border-0" placeholder="Keyword">
+                    <div class="input-group-append">
+                        <button class="input-group-text bg-primary text-dark border-0 px-3"><i
+                                class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Navbar End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-fluid mt-5 pt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+
+                    <!-- Popular News Start -->
+
+
+                    <div class="mb-3">
+                        <div class="section-title mb-0">
+                            <h4 class="m-0 text-uppercase font-weight-bold">Tổng hợp các CLB/ Tổ/ Đội/ Nhóm</h4>
+                        </div>
+
+
+                        <div class="bg-white border border-top-0 p-3">
+                            <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                                <a href="https://www.facebook.com/Vnxk.nhip.dieu.xanh" target="_blank">
+                                    <img class="img-logo" src="img/lgndx.jpg" alt="">
+                                    <div
+                                        class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+
+                                        <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                            href="https://www.facebook.com/Vnxk.nhip.dieu.xanh" target="_blank">Đội VNXK
+                                            Nhịp điệu xanh</a>
+                                    </div>
+
+                                </a>
+
+                            </div>
+                            <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                                <a href="https://www.facebook.com/NongLamUniversity.Radio" target="_blank">
+
+                                    <img class="img-logo" src="img/lgnlr.png" alt="">
+
+                                    <a href="https://www.facebook.com/NongLamUniversity.Radio">
+                                        <div
+                                            class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+
+                                            <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                                href="https://www.facebook.com/NongLamUniversity.Radio"
+                                                target="_blank">CLB
+                                                truyền thông nông lâm radio</a>
+                                        </div>
+                                    </a>
+
+
+                                </a>
+                            </div>
+                            <div class="d-flex align-items-center bg-white mb-3 style=" height: 110px;">
+                                <a href="https://www.facebook.com/ctxh2001nlu" target="_blank">
+                                    <img class="img-logo" src="img/lgctxh.jpg" alt="">
+                                    <div
+                                        class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+                                        <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                            href="https://www.facebook.com/ctxh2001nlu" target="_blank">Đội Công Tác Xã
+                                            Hội
+                                        </a>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                            <a href="https://www.facebook.com/clbdonghanh.ac" target="_blank">
+                                <img class="img-logo" src="img/lgac.jpg" alt="">
+                                <div
+                                    class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                        href="https://www.facebook.com/clbdonghanh.ac" target="_blank">clb đồng hành -
+                                        ac</a>
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                        <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                            <a href="https://www.facebook.com/CLB.YMT.NL" target="_blank">
+                                <img class="img-logo" src="img/lgndx.jpg" alt="">
+                                <div
+                                    class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                        href="https://www.facebook.com/CLB.YMT.NL" target="_blank">CLB YÊU MÔI
+                                        TRƯỜNG</a>
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                        <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                            <a href="https://www.facebook.com/doivannghe.rangdong" target="_blank">
+                                <img class="img-logo" src="img/lgrd.png" alt="">
+                                <div
+                                    class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                        href="https://www.facebook.com/doivannghe.rangdong" target="_blank">Đội văn nghệ
+                                        rạng đông</a>
+                                </div>
+
+                            </a>
+
+                        </div>
+
+
+                        <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                            <a href="https://www.facebook.com/clbkntc" target="_blank">
+                                <img class="img-logo" src="img/lkntc.jpg" alt="">
+                                <div
+                                    class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                        href="https://www.facebook.com/clbkntc" target="_blank">CLB KẾT NỐI THÀNH
+                                        CÔNG</a>
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                        <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                            <a href="https://www.facebook.com/totdrlhatgiongdo" target="_blank">
+                                <img class="img-logo" src="img/lhgd.jpg" alt="">
+                                <div
+                                    class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                        href="https://www.facebook.com/totdrlhatgiongdo" target="_blank">Tổ Tu Dưỡng Rèn
+                                        Luyện HẠT GIỐNG ĐỎ</a>
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                        <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                            <a href="https://www.facebook.com/ClbCanBoDoanNgoiSaoXanh" target="_blank">
+                                <img class="img-logo" src="img/lnsx.jpg" alt="">
+                                <div
+                                    class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                        href="https://www.facebook.com/ClbCanBoDoanNgoiSaoXanh" target="_blank">CLB CÁN
+                                        BỘ ĐOÀN NGÔI SAO XANH</a>
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                        <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                            <a href="https://www.facebook.com/dlst.info" target="_blank">
+                                <img class="img-logo" src="img/ldl.jpg" alt="">
+                                <div
+                                    class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                        href="https://www.facebook.com/dlst.info" target="_blank">DU LỊCH SINH THÁI</a>
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                        <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                            <a href="https://www.facebook.com/clbsvhdnlu/" target="_blank">
+                                <img class="img-logo" src="img/lsach.jpg" alt="">
+                                <div
+                                    class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                        href="https://www.facebook.com/clbsvhdnlu/" target="_blank">CLB SÁCH VÀ HÀNH
+                                        ĐỘNG</a>
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                        <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                            <a href="https://www.facebook.com/englishforbusinessnlu" target="_blank">
+                                <img class="img-logo" src="img/leb.jpg" alt="">
+                                <div
+                                    class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold"
+                                        href="https://www.facebook.com/englishforbusinessnlu" target="_blank">EFB -
+                                        English For Business Club</a>
+                                </div>
+
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nhận tin tức qua mail Start -->
+                <div class="mb-3">
+                    <div class="section-title mb-0">
+                        <h4 class="m-0 text-uppercase font-weight-bold">Nhận tin tức qua mail</h4>
+                    </div>
+                    <div class="bg-white text-center border border-top-0 p-3">
+                        <p>Hãy để lại mail nếu bạn muốn nhận được những thông tin mới nhất từ chúng tôi nhé</p>
+                        <div class="input-group mb-2" style="width: 100%;">
+                            <input type="text" class="form-control form-control-lg" placeholder="Email">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary font-weight-bold px-3">OK</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- Contact End -->
+
+    <a href="#" class="btn btn-primary btn-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

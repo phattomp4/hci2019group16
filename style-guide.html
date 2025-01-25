@@ -45,7 +45,7 @@ body, html {
         <a href="project.html" class="w3-bar-item w3-button"><i class="fa fa-paper-plane"></i> PROJECT</a>
         <a href="groupDiary.html" class="w3-bar-item w3-button"><i class="fa fa-file-text"></i> GROUP DIARY</a>
         <a href="about.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> ABOUT</a>
-        <a href="home.html#result" class="w3-bar-item w3-button"><i class="fa fa-diamond"></i> RESULT</a>
+        <a href="result.html" class="w3-bar-item w3-button"><i class="fa fa-diamond"></i> RESULT</a>
         <a href="style-guide.html" class="w3-bar-item w3-button"><i class="fa fa-cog"></i> STYLE GUIDE</a>
         <a target="_blank" href="login.html" target="_blank" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WEB
           PROJECT</a>
@@ -76,99 +76,92 @@ body, html {
 <main>
   <!-- Section 1: Typography -->
   <section class="style-section">
-      <h2>1. Typography</h2>
-      <div class="typography">
-          <h1>Header 1</h1>
-          <h2>Header 2</h2>
-          <h3>Header 3</h3>
-          <p>font: Sans-serif</p>
-      </div>
+    <div id="tab3" class="tab-content">
+      <h1><strong>Typography</strong> </h1>
+
+  <div class="content">
+      <h2>1. Font chữ</h2>
+      <p>Font chính: <strong>"Raleway", "Montserrat", sans-serif</strong></p>
+      <p>Font chữ này được sử dụng trên toàn bộ website</p>
+
+      <h2>2. Định dạng chữ đậm (font-weight)</h2>
+      <p><strong>Chữ tiêu đề:</strong> sử dụng font-weight: <strong>bold (700)</strong>, tạo điểm nhấn.</p>
+      <p><strong>Nội dung thông thường:</strong> sử dụng font-weight: <strong>400</strong>.</p>
+
+      <h2>3. Kích thước chữ</h2>
+      <p><strong>Chữ nội dung:</strong> Kích thước chữ mặc định: <strong>1rem</strong> (16px trên phần lớn trình duyệt).</p>
+
+      <h2>4. Màu sắc chữ</h2>
+      <p><strong>Màu chữ chính:</strong> <span style="color: #333;">#333</span> </p>
+
+      <h2>5. Khoảng cách và căn chỉnh</h2>
+      <p><strong>Khoảng cách giữa các dòng chữ:</strong> Không được xác định cụ thể trong CSS nhưng mặc định của font-family đã tối ưu khoảng cách giữa các dòng, đem lại cảm giác thoải mái khi đọc.</p>
+      <p><strong>Căn lề:</strong> Chủ yếu sử dụng text-align: <strong>center</strong> hoặc căn chỉnh đều (<strong>justify</strong>).</p>
+
+      <h2>6. Hiệu ứng liên quan đến typography</h2>
+      <p><strong>Hover text:</strong> Khi người dùng rê chuột qua các liên kết, màu chữ thay đổi hoặc được nhấn mạnh:</p>
+
+
+  </div>
+</div>
   </section>
+  <br>
 
   <!-- Section 2: Colors -->
   <section class="style-section">
-      <h2>2. Colors</h2>
-      <div class="colors">
+      <h2><strong>Colors</strong> </h2>
+      <div class="colors" style="display: flex;">
+        <div><p>GROUP PAGE</p>
           <div class="color-swatch" style="background-color: #000000;">#000000</div>
           <div class="color-swatch" style="background-color: #f1f1f1; color: #000000;">#f1f1f1</div>
-          <div class="color-swatch" style="background-color: #fff; color: #000000;">#ffffff</div>
+          <div class="color-swatch" style="background-color: #fff; color: #000000;">#ffffff</div> </div>
+        <div><p>WEB PROJECT</p>
+          <div class="color-swatch" style="background-color: #7d7d7d;">#7d7d7d</div>
+          <div class="color-swatch" style="background-color: #28a745; color: #000000;">#28a745</div>
+          <div class="color-swatch" style="background-color: #fff; color: #000000;">#ffffff</div> </div>
       </div>
   </section>
 
-  <!-- Section 3: Buttons -->
+  <!-- Section 3: File và Directory -->
   <section class="style-section">
-      <h2>3. Buttons</h2>
-      <button class="btn-primary">Primary Button</button>
-      <button class="btn-secondary">Secondary Button</button>
-  </section>
-
-
-  <!-- Section 5: Table Styles -->
-  <section class="style-section">
-      <h2>4. Table Styles</h2>
-      <div id="table-container">
-          <table>
-              <thead>
-                  <tr>
-                      <th>Header 1</th>
-                      <th>Header 2</th>
-                      <th>Header 3</th>
-                  </tr>
-              </thead>
-              <tbody>
-                  <tr>
-                      <td>Row 1, Col 1</td>
-                      <td>Row 1, Col 2</td>
-                      <td>Row 1, Col 3</td>
-                  </tr>
-                  <tr>
-                      <td>Row 2, Col 1</td>
-                      <td>Row 2, Col 2</td>
-                      <td>Row 2, Col 3</td>
-                  </tr>
-              </tbody>
-          </table>
-      </div>
-
-
-  </section>
-</main>
-
-<!-- Contact Section -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
-  <h3 class="w3-center">CONTACT</h3>
-  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
-  <div style="margin-top:48px">
-    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Vietnam</p>
-    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: 0765997230</p>
-    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: group16@gmail.com</p>
-    <br>
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+    <h2><strong>File and Directory</strong> </h2>
+    <div id="tab1" class="tab-content active">
+      <p><b>Cấu trúc tổng quan của project nhóm</b></p><br>
+      <p>Dưới đây là cấu trúc của web project:</p><br>
       <p>
-        <button class="w3-button w3-black" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
+          newsfeed <br>
+          ├── About/                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Thư mục chứa file các trang của mục GIỚI THIỆU <br>
+          │   &nbsp;&nbsp;&nbsp;&nbsp;├── boss.html             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Trang SỨ MẠNG - TẦM NHÌN <br>
+          │   &nbsp;&nbsp;&nbsp;&nbsp;├── council.html          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Trang HỘI ĐỒNG TRƯỜNG<br>
+          │   &nbsp;&nbsp;&nbsp;&nbsp;├── mission.html      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Trang BAN GIÁM HIỆU<br>
+          │   &nbsp;&nbsp;&nbsp;&nbsp;├── style_about.css             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Style của các trang của mục GIỚI THIỆU<br>
+          ├── assets/                        &nbsp;&nbsp;&nbsp;&nbsp;# Thư mục chứa hình ảnh<br>
+          ├── CLB/                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Thư mục chứa các hình ảnh và file trang CLB/TỔ/ĐỘI/NHÓM<br>
+          │   &nbsp;&nbsp;&nbsp;&nbsp;├── css/              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Thư mục chứa các file css của trang CLB/TỔ/ĐỘI/NHÓM<br>
+          │   &nbsp;&nbsp;&nbsp;&nbsp;├── img/               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Thư mục chứa các hình ảnh của trang CLB/TỔ/ĐỘI/NHÓM<br>
+          │   &nbsp;&nbsp;&nbsp;&nbsp;├── js/                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Thư mục chứa các file js của trang CLB/TỔ/ĐỘI/NHÓM<br>
+          │   &nbsp;&nbsp;&nbsp;&nbsp;├── contactCLB.html                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Trang TỔNG HỢP các CLB/TỔ/ĐỘI/NHÓM<br>
+          │   &nbsp;&nbsp;&nbsp;&nbsp;├── index.html                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Trang tin tức CLB/TỔ/ĐỘI/NHÓM<br>
+          ├── pages/   
+          │   &nbsp;&nbsp;&nbsp;&nbsp;├── contact.html              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Trang CONTACT của WEB PROJECT<br>     
+          ├── style.css            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# CSS của WEB PROJECT<br>
+          ├── webproject.html         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Trang chính WEB PROJECT<br> 
       </p>
-    </form>
+      <p><b>Quy tắc đặt tên</b></p><br>
+      <p><b>Thư mục</b></p><br>
+    <p>Sử dụng tiếng Anh để dễ làm việc với nhau vì tiếng Anh là tiếng quốc tế.</p><br>
+      <p><b>File</b></p><br>
+     <p>Tên file phải có nghĩa với chủ đề nội dung của nó và sử dụng chữ thường</p><br>
+      <p><b>Chức năng của các thư mục</b></p><br>
+      <p>Tùy vào các thư mục sẽ có các chức năng khác nhau</p>
   </div>
-</div>
+  </section>
 
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div>
-</footer>
+
+  
+
+
+
  
 <script>
 // Modal Image Gallery
